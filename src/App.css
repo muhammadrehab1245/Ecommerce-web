@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Mulish:ital,wght@0,400;0,700;0,900;1,800&family=Oswald:wght@600&family=Poppins:wght@300;600&family=Roboto+Mono:ital,wght@0,600;1,400&family=Roboto+Slab:wght@300&family=Roboto:wght@500&family=Space+Grotesk:wght@600&family=Urbanist:ital@1&display=swap');
+#root {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+}
+
+.progress {
+    animation: progress 1s infinite linear;
+  }
+  
+  .left-right {
+      transform-origin: 0% 50%;
+  }
+      @keyframes progress {
+      0% {
+          transform:  translateX(0) scaleX(0);
+      }
+      40% {
+          transform:  translateX(0) scaleX(0.4);
+      }
+      100% {
+          transform:  translateX(100%) scaleX(0.5);
+      }
+  }

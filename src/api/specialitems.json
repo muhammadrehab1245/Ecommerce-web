@@ -1,0 +1,2218 @@
+{
+  "items": [
+    {
+      "name": "Nike Polar",
+      "category": "jacket",
+      "range": "66-80",
+      "productid": "H7I8J9K0",
+      "price": 79.42,
+      "defaultquantity": 1,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c1e041b8-e3c3-4897-8400-d3ef79437b8b/repel-unlimited-mens-water-repellent-hooded-versatile-jacket-56pDjs.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e2b09179-2b25-4316-b4d3-0f6c8d0df8f3/repel-unlimited-mens-water-repellent-hooded-versatile-jacket-56pDjs.png",
+          "color": "darkblue"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/490bbcfa-9a33-40c6-b6f5-18f97c1442a5/repel-unlimited-mens-water-repellent-hooded-versatile-jacket-56pDjs.png",
+          "color": "#f59e0b"
+        }
+      ]
+    },
+    {
+      "name": "Nike Authentics",
+      "category": "jacket",
+      "productid": "T7S8R9Q0",
+      "range": "50-65",
+      "price": 61.93,
+      "defaultquantity": 1,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/21f09c58-42b1-4ab1-ae7e-1f8864198cdd/sportswear-authentics-mens-coaches-jacket-RRQsGg.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8bad8988-a499-41bf-9315-b5371664a53e/sportswear-authentics-mens-coaches-jacket-RRQsGg.png",
+          "color": "silver"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1dae9ab9-84aa-4337-8e40-2eeb86d40210/sportswear-authentics-mens-coaches-jacket-RRQsGg.png",
+          "color": "goldenrod"
+        }
+      ]
+    },
+    {
+      "name": "Nike Metcon 10",
+      "category": "joggers",
+      "productid": "P1O2N3M4",
+      "range": "50-65",
+      "defaultquantity": 1,
+      "price": 51.33,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1f7d293d-4d36-45ad-808e-5e378245dcd8/free-metcon-5-tb-mens-workout-shoes-NSvcRt.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4b4278f3-83ce-4fcf-bd12-410d50379e52/free-metcon-5-tb-mens-workout-shoes-NSvcRt.png",
+          "color": "silver"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e0acc04a-8fe1-404e-9f71-af66ac9df370/free-metcon-5-tb-mens-workout-shoes-NSvcRt.png",
+          "color": "#F0E68C"
+        }
+      ]
+    },
+    {
+      "name": "Nike Metcon 8",
+      "category": "joggers",
+      "productid": "Z5Y6W7V8",
+      "range": "81-95",
+      "defaultquantity": 1,
+      "price": 82.13,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4f34abbb-70df-44bf-8cad-137cca108d49/metcon-8-mens-workout-shoes-ppltpW.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4fe7555a-63bf-4567-8f77-61dedb014bd6/metcon-8-mens-workout-shoes-ppltpW.png",
+          "color": "silver"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9a869c83-9c26-41b4-9000-8e5e1bdf710a/metcon-8-mens-workout-shoes-ppltpW.png",
+          "color": "grey"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/543f44ec-73ae-4bd1-b480-32b10f38871b/metcon-8-mens-workout-shoes-ppltpW.png",
+          "color": "#318CE7"
+        }
+      ]
+    },
+    {
+      "name": "Nike Club Fleece",
+      "category": "hoodies",
+      "productid": "A3I0J1J2",
+      "defaultquantity": 1,
+      "range": "66-80",
+      "price": 70.64,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/110d9f49-1815-4ac7-8b7b-0020bf778d89/club-fleece-mens-pullover-soccer-hoodie-5bBBsH.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/05979345-a9da-44f4-86a5-8eb172044272/club-fleece-mens-pullover-soccer-hoodie-5bBBsH.png",
+          "color": "#483D8B"
+        }
+      ]
+    },
+    {
+      "name": "Nike Essentials",
+      "category": "jacket",
+      "productid": "O7P8Q9R0",
+      "defaultquantity": 1,
+      "range": "31-49",
+      "price": 41.34,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/67009714-7a25-424e-a794-a700bd6d591a/jordan-essentials-mens-warmup-jacket-bHlr9B.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/dea05fe8-f6c9-436c-ab6a-483634452245/jordan-essentials-mens-warmup-jacket-bHlr9B.png",
+          "color": "goldenrod"
+        }
+      ]
+    },
+    {
+      "name": "Nike Solo Google",
+      "category": "t-shirt",
+      "productid": "P3O4N5M6",
+      "defaultquantity": 1,
+      "range": "50-65",
+      "price": 50.71,
+      "colors": [
+        {
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnwZAfyvhrTiSr6ziH51-CdfdSOFsSpKaakd2_W2s&s",
+          "color": "black"
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/image/850/1000/khz693k0-0/t-shirt/j/b/o/xl-google-cloud-mens-t-shirt-youngpun-original-imafxvzcsgfn3t9u.jpeg?q=90",
+          "color": "darkblue"
+        }
+      ]
+    },
+    {
+      "name": "Nike Stealth Mode",
+      "category": "jacket",
+      "productid": "B1C2D3E4",
+      "defaultquantity": 1,
+      "range": "50-65",
+      "price": 54.2,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/01b68221-b7a0-44ba-8302-f8a107a1d00b/sportswear-windrunner-mens-hooded-jacket-5hK13x.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e7052b5e-b2d0-4c29-b3e2-42387d5ec1d7/sportswear-windrunner-mens-hooded-jacket-5hK13x.png",
+          "color": "red"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5a75dd1e-8ed8-4335-8b9e-7c136120d64a/sportswear-windrunner-mens-hooded-jacket-5hK13x.png",
+          "color": "goldenrod"
+        }
+      ]
+    },
+    {
+      "name": "Nike Renew Ride 3",
+      "category": "running shoes",
+      "productid": "E7F8G9H0",
+      "defaultquantity": 1,
+      "range": "31-49",
+      "price": 46.83,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a57a4fce-2892-4053-ab64-c427ce605117/renew-ride-3-mens-road-running-shoes-7hTSLw.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f9d31118-d3fd-4336-bb85-a9fd8b1555fb/renew-ride-3-mens-road-running-shoes-7hTSLw.png",
+          "color": "white"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bae84e5b-dae6-4688-9ea7-fdab29f2997b/renew-ride-3-mens-road-running-shoes-7hTSLw.png",
+          "color": "red"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/89f88e36-6463-433f-84c2-bc07be839047/renew-ride-3-mens-road-running-shoes-7hTSLw.png",
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "name": "Nike Motiva",
+      "category": "joggers",
+      "productid": "L3M4N5O6",
+      "defaultquantity": 1,
+      "range": "31-49",
+      "price": 35.07,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5f01c9d4-322a-4b8e-87ed-fc3eecdf61c8/metcon-8-mens-workout-shoes-ppltpW.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d5631a63-18b2-4230-ac1d-de87e681a12a/motiva-mens-walking-shoes-0vX49k.png",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "name": "Nike Alphafly 2",
+      "category": "running shoes",
+      "productid": "G6I0K1K2",
+      "defaultquantity": 1,
+      "range": "31-49",
+      "price": 36.64,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1e4ffa00-ad76-4d6f-9ada-c4d73234dd26/alphafly-2-mens-road-racing-shoes-Bstm8X.png",
+          "color": "pink"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/097a2db2-be36-41df-b5e6-3469f94d3617/alphafly-2-mens-road-racing-shoes-Bstm8X.png",
+          "color": "aquamarine"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/574d1bd1-8637-4a2f-91a2-fcc623c67d3b/alphafly-2-eliud-kipchoge-mens-road-racing-shoes-Bstm8X.png",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "name": "Nike Promax 11",
+      "category": "running shoes",
+      "productid": "P5O6N7M8",
+      "defaultquantity": 1,
+      "range": "81-95",
+      "price": 89.21,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/77049a0c-3c99-4ca7-8264-4ea238435140/wio-10-mens-road-running-shoes-DZQPJN.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fff68088-255f-40b2-aea7-0fc0af16c1c9/wio-10-mens-road-running-shoes-DZQPJN.png",
+          "color": "blue"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/51833e97-f4d6-4063-a0cc-0ab6d6a03ad6/wio-10-mens-road-running-shoes-DZQPJN.png",
+          "color": "white"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/585145de-9492-4fa9-b623-e1d9bfdc6db1/wio-10-mens-road-running-shoes-DZQPJN.png",
+          "color": "green"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/09997ca4-6fe3-4085-8d9d-29d2547d8b4f/air-wio-10-mens-road-running-shoes-DZQPJN.png",
+          "color": "silver"
+        }
+      ]
+    },
+    {
+      "name": "Nike AdventureReady",
+      "category": "joggers",
+      "productid": "U5V6W1O4",
+      "defaultquantity": 1,
+      "range": "81-95",
+      "price": 86.34,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0dc78702-2238-4e64-a752-6f0f27dbe8e9/superrep-cycle-2-next-nature-indoor-cycling-shoes-fNRjQJ.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/22a6f080-b554-425c-9f41-4621a40e09da/superrep-cycle-2-next-nature-indoor-cycling-shoes-fNRjQJ.png",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "name": "Nike Rival 3",
+      "range": "50-65",
+      "category": "running shoes",
+      "productid": "B1C2D7B1",
+      "defaultquantity": 1,
+      "price": 52.89,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6f4bdf5d-fa57-4367-b0d5-84b84208f4c2/rival-fly-3-mens-road-racing-shoes-DSPGQ6.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/32e2fbf6-0b38-4289-b94d-a778cb14fff1/air-zoom-rival-fly-3-mens-road-racing-shoes-DSPGQ6.png",
+          "color": "lime"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8be44eb3-86d8-4516-9a6e-8b3e7c3d539b/rival-fly-3-mens-road-racing-shoes-DSPGQ6.png",
+          "color": "#FF69B4"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/78c8445b-276c-4a29-b2ce-afe8ec183e77/rival-fly-3-mens-road-racing-shoes-DSPGQ6.png",
+          "color": "orangered"
+        }
+      ]
+    },
+    {
+      "name": "Nike CourtAdvantage",
+      "category": "jacket",
+      "productid": "M5N6O7L8",
+      "range": "50-65",
+      "defaultquantity": 1,
+      "price": 64.77,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4ae9ec9c-1ad9-45de-8c57-fe2c44aa500c/nikecourt-advantage-mens-tennis-jacket-QK01b0.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b936edc8-5b60-4fc5-ada6-cd9299763be4/nikecourt-advantage-mens-tennis-jacket-QK01b0.png",
+          "color": "white"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/df171e07-1caa-44e9-98df-c427ad805617/nikecourt-advantage-mens-tennis-jacket-QK01b0.png",
+          "color": "lightskyblue"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/535019cb-57e8-426b-a629-aac72a124ca9/nikecourt-advantage-mens-tennis-jacket-QK01b0.png",
+          "color": "lightslategray"
+        }
+      ]
+    },
+    {
+      "name": "Nike SB Pogo",
+      "category": "running shoes",
+      "productid": "T9S0R1Q2",
+      "defaultquantity": 1,
+      "price": 44.1,
+      "range": "31-49",
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/dc31862e-5af6-4611-a497-5bd3b29e7191/sb-zoom-pogo-plus-skate-shoes-GxMsNp.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5fe30fc4-2645-4d1e-b3f8-70da145e0f74/air-max-97-shoes-EBZrb8.png",
+          "color": "white"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6ec74bdb-7d80-44eb-bc65-8538317f1af5/sb-zoom-pogo-plus-premium-skate-shoes-GxMsNp.png",
+          "color": "golden"
+        },
+        {
+          "url": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ad942e4c-2070-463c-869a-5dab59867b39/dunk-high-retro-shoe-DdRmMZ.png",
+          "color": "#00BFFF"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8422d238-046b-427a-bec6-c6578a8d2fa0/sb-zoom-pogo-plus-skate-shoes-GxMsNp.png",
+          "color": "#6495ED"
+        }
+      ]
+    },
+    {
+      "name": "Nike SB Ishod",
+      "category": "running shoes",
+      "productid": "Z3Y4X5W6",
+      "defaultquantity": 1,
+      "range": "96-110",
+      "price": 110,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0c2d7843-4e0d-4fba-82e9-8d57c6d31dc7/sb-ishod-premium-mens-shoes-xjNjBC.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8152f6d6-3e16-4d29-9eb2-7d139b0f03a6/sb-ishod-wair-premium-skate-shoes-xjNjBC.png",
+          "color": "orangered"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/aeb3afde-ea44-45a6-ac42-a8124276f80c/sb-ishod-wair-premium-skate-shoes-xjNjBC.png",
+          "color": "white"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f78b4e67-2dc2-40c9-a5ca-a61e2954ec72/sb-ishod-premium-skate-shoes-xjNjBC.png",
+          "color": "brown"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/23dfd4f7-e4af-4f85-aa8a-6b124ac5d08b/sb-ishod-wair-prm-skate-shoes-xjNjBC.png",
+          "color": "#7FFFD4"
+        }
+      ]
+    },
+    {
+      "name": "Nike React Leo",
+      "category": "running shoes",
+      "productid": "F7E8D9C0",
+      "defaultquantity": 1,
+      "range": "31-49",
+      "price": 41.97,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5304c585-296d-4d41-9e81-3e6a188bd857/sb-react-leo-skate-shoes-fWzQ6w.png",
+          "color": "white"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3da16ba8-d30e-4491-b400-33ee45a3d420/sb-react-leo-skate-shoes-fWzQ6w.png",
+          "color": "#79443B"
+        }
+      ]
+    },
+    {
+      "name": "Nike Max Solo",
+      "category": "running shoes",
+      "productid": "M5N6O1Z1",
+      "defaultquantity": 1,
+      "range": "31-49",
+      "price": 32.19,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f3bb522b-adfc-441d-92cd-f25f855fa965/air-max-solo-mens-shoes-4SzqpT.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9eabc22c-51f9-4b5a-bb6f-c8a0ea235fe4/air-max-solo-mens-shoes-4SzqpT.png",
+          "color": "white"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/09997ca4-6fe3-4085-8d9d-29d2547d8b4f/air-wio-10-mens-road-running-shoes-DZQPJN.png",
+          "color": "silver"
+        }
+      ]
+    },
+    {
+      "name": "Nike VaporMax Plus",
+      "category": "running shoes",
+      "productid": "K9J0I1H2",
+      "defaultquantity": 1,
+      "range": "96-110",
+      "price": 98.11,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fliho8ygw5nogbmtcbft/air-vapormax-plus-mens-shoes-nC0dzF.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/yommy4ijgwgrzbebxtvm/air-vapormax-plus-mens-shoes-nC0dzF.png",
+          "color": "#ADD8E6"
+        },
+        {
+          "url": "https://img.tennisonly.com.au/watermark/rs.php?path=NMV11WB-1.jpg&nw=455",
+          "color": "white"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4d93ff7a-3d6c-4f6a-97f4-db76505c54a2/air-vapormax-plus-mens-shoes-nC0dzF.png",
+          "color": "#FF5733"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d84ada41-9cd8-46cb-9de9-e85fab060064/air-vapormax-plus-mens-shoes-nC0dzF.png",
+          "color": "#B3FFCC"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d977b294-26a3-4006-b42d-23886e13bd74/air-vapormax-plus-mens-running-shoes-nC0dzF.png",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "name": "Jordan Pro Max",
+      "category": "running shoes",
+      "productid": "V3U4T5S6",
+      "defaultquantity": 1,
+      "range": "50-65",
+      "price": 59.71,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4a4d9935-1564-440e-93ee-8c1d9928c448/air-jordan-1-zoom-cmft-2-mens-shoes-Tw02qw.png",
+          "color": "brown"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f78fa9ac-c1fa-486b-8795-6f49b046ad6a/air-jordan-1-zoom-cmft-2-mens-shoes-Tw02qw.png",
+          "color": "#ADD8E6"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a1417b64-5279-4e04-a010-0a5c5e504d05/air-jordan-1-zoom-cmft-2-mens-shoes-Tw02qw.png",
+          "color": "golden"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f2ff3b94-82fa-4fd2-97a7-72851b73ebfe/air-jordan-1-zoom-cmft-2-mens-shoes-Tw02qw.png",
+          "color": "#D9FEE5"
+        }
+      ]
+    },
+    {
+      "name": "Jordan Why 6",
+      "category": "running shoes",
+      "productid": "P1R8E9D0",
+      "defaultquantity": 1,
+      "range": "31-49",
+      "price": 48.26,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a30234be-ab9f-40d6-a939-d06d099b14c1/jordan-why-not-6-mens-shoes-T5Gl76.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f3a938d6-0213-40e9-b053-36a31066dc5a/jordan-why-not-6-mens-shoes-T5Gl76.png",
+          "color": "#1AE3E3"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f004714a-cdc3-413d-a29e-ef713820376a/jordan-why-not-6-mens-shoes-T5Gl76.png",
+          "color": "#74DF74"
+        }
+      ]
+    },
+    {
+      "name": "Nike Tech Fleece",
+      "category": "hoodies",
+      "productid": "A1B2C3X4",
+      "defaultquantity": 1,
+      "range": "81-95",
+      "price": 80.07,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/51818356-cfaf-4bc1-9c79-4b03be6d7b9d/sportswear-tech-fleece-windrunner-mens-full-zip-hoodie-rznlBf.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7333d67c-d7ed-462b-abd0-31e24d71a3fd/sportswear-tech-fleece-windrunner-mens-full-zip-hoodie-rznlBf.png",
+          "color": "#483D8B"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/df0e2528-3f92-4035-93b1-a9a07a5fb422/sportswear-tech-fleece-windrunner-mens-full-zip-hoodie-rznlBf.png",
+          "color": "orangered"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/63367749-1a39-41fd-a11a-fc6a13fadc21/sportswear-tech-fleece-windrunner-mens-full-zip-hoodie-rznlBf.png",
+          "color": "#87CEFA"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9262c107-34c2-4851-88e4-0655f8cbc320/sportswear-tech-fleece-windrunner-mens-full-zip-hoodie-rznlBf.png",
+          "color": "#F0E68C"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5a03f66d-7f9d-45bb-a136-a5d839a950c9/sportswear-tech-fleece-windrunner-mens-full-zip-hoodie-rznlBf.png",
+          "color": "silver"
+        }
+      ]
+    },
+    {
+      "name": "Men's Nike Soccer Crew",
+      "category": "hoodies",
+      "productid": "R7S8T9U0",
+      "range": "81-95",
+      "defaultquantity": 1,
+      "price": 93.24,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7fdb5e74-a08f-4ecf-b5ab-2af338687ed5/dri-fit-standard-issue-mens-soccer-crew-2hkd8s.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/dcc9f832-0c76-4c1b-ac14-4ce684985a77/dri-fit-standard-issue-mens-soccer-crew-2hkd8s.png",
+          "color": "silver"
+        }
+      ]
+    },
+    {
+      "name": "Men's Nike Parrot",
+      "category": "hoodies",
+      "productid": "P1O2N1N4",
+      "defaultquantity": 1,
+      "range": "50-65",
+      "price": 53.57,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4e55b47e-ea5e-4efb-9caa-971beb808b9c/sportswear-tech-fleece-mens-bomber-jacket-rXx6mF.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b837f7d1-8450-441c-a22c-b6ab1eb6a130/sportswear-tech-fleece-mens-bomber-jacket-rXx6mF.png",
+          "color": "white"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ea9b5d27-cc69-494c-a21c-1474abc790ff/sportswear-tech-fleece-mens-bomber-jacket-rXx6mF.png",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "name": "Nike Therma Men's",
+      "category": "hoodies",
+      "productid": "T5S6R7Q8",
+      "range": "50-65",
+      "defaultquantity": 1,
+      "price": 63.93,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c013660a-93fe-48eb-bd2f-ca731d344905/therma-mens-therma-fit-full-zip-fitness-top-vsR4Rm.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c29e8b0b-1e7a-4510-a51a-d747605fd85a/therma-mens-therma-fit-full-zip-fitness-top-vsR4Rm.png",
+          "color": "blue"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/810e1a90-9d47-4f15-ba2b-86c5dc7d85d2/therma-mens-therma-fit-full-zip-fitness-top-vsR4Rm.png",
+          "color": "white"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/79efe636-5442-48ec-8d5c-afdf39a5a6fa/therma-mens-therma-fit-full-zip-fitness-top-vsR4Rm.png",
+          "color": "red"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3c313fce-bf66-4216-a793-296485de5eaa/therma-mens-therma-fit-full-zip-fitness-top-vsR4Rm.png",
+          "color": "silver"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c25f2bc6-4871-4d11-9f57-94187d3697e5/therma-mens-therma-fit-full-zip-fitness-top-vsR4Rm.png",
+          "color": "#0F52BA"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/39dff56d-b108-4c00-9d68-4bc79866c6d6/therma-mens-therma-fit-full-zip-fitness-top-vsR4Rm.png",
+          "color": "golden"
+        }
+      ]
+    },
+    {
+      "name": "Nike Pullover",
+      "category": "hoodies",
+      "productid": "X9W0V1U2",
+      "defaultquantity": 1,
+      "range": "96-110",
+      "price": 107.38,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/xnsbwuykok3skzvkdej9/sportswear-club-fleece-pullover-hoodie-Gw4Nwq.png",
+          "color": "white"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/njqltik2pun0qj9nhoor/sportswear-club-fleece-pullover-hoodie-Gw4Nwq.png",
+          "color": "blue"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8f4e5736-13dd-4f42-b74f-48383b0911ae/sportswear-club-fleece-pullover-hoodie-Gw4Nwq.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9c126793-73af-4ed5-9900-57d4f2ddbb76/sportswear-club-fleece-pullover-hoodie-Gw4Nwq.png",
+          "color": "golden"
+        }
+      ]
+    },
+    {
+      "name": "Nike Pull Ultra",
+      "category": "hoodies",
+      "defaultquantity": 1,
+      "productid": "B7C8D9I0",
+      "range": "66-80",
+      "price": 78.79,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/57591dde-6c13-4bc3-a42b-8abb09db662c/sportswear-club-fleece-pullover-hoodie-Gw4Nwq.png",
+          "color": "yellow"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9380bac7-dd46-4c03-b6e8-a50523557438/sportswear-club-fleece-pullover-hoodie-Gw4Nwq.png",
+          "color": "#BA0021"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0b9cc0e1-eb6d-408f-afa1-2cbb57f752b1/sportswear-club-fleece-pullover-hoodie-Gw4Nwq.png",
+          "color": "#B2FFFF"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/209bd882-84fd-47dc-bb85-2cd78856d859/sportswear-club-fleece-pullover-hoodie-Gw4Nwq.png",
+          "color": "orangered"
+        }
+      ]
+    },
+    {
+      "name": "Nike Cover Hoodie",
+      "category": "hoodies",
+      "defaultquantity": 1,
+      "productid": "K1L2M3N4",
+      "range": "31-49",
+      "price": 31.94,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e66165d4-a51e-444f-b184-f25aba04898c/sportswear-club-fleece-pullover-hoodie-Gw4Nwq.png",
+          "color": "silver"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6fa930fe-3d24-452e-9de6-d7407dd832bb/sportswear-club-fleece-pullover-hoodie-Gw4Nwq.png",
+          "color": "brown"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/38ab9ed5-d9f6-4ccd-9070-54bd14186352/sportswear-club-fleece-pullover-hoodie-Gw4Nwq.png",
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "name": "Nike CozyChill",
+      "category": "hoodies",
+      "productid": "P1V6W3O8",
+      "defaultquantity": 1,
+      "range": "81-95",
+      "price": 87.88,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/i7w0sh1gqkya1ojtut2r/sportswear-club-fleece-pullover-hoodie-Gw4Nwq.png",
+          "color": "grey"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a29aa71c-34b0-4a0d-9b80-7e564c5de0cc/sportswear-club-fleece-pullover-hoodie-Gw4Nwq.png",
+          "color": "#FF69B4"
+        }
+      ]
+    },
+    {
+      "name": "Nike UrbanEdge",
+      "range": "66-80",
+      "category": "t-shirt",
+      "productid": "S3Z1L0Q2",
+      "defaultquantity": 1,
+      "price": 69.2,
+      "colors": [
+        {
+          "url": "https://zz.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/67/5412/1.jpg?3525",
+          "color": "darkgreen"
+        },
+        {
+          "url": "https://zz.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/09/5412/1.jpg?3523",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "name": "Nike StreetStyle",
+      "category": "t-shirt",
+      "productid": "X5Y6Z7W8",
+      "range": "31-49",
+      "price": 42.62,
+      "defaultquantity": 1,
+      "colors": [
+        {
+          "url": "https://teestyled.com/cdn/shop/products/2_d1b9da06-1108-4ab7-9b80-b4cf880147a9.png?v=1672879488",
+          "color": "black"
+        },
+        {
+          "url": "https://teestyled.com/cdn/shop/products/image_2c185173-18d3-4f36-95cb-f2767c81d22e.jpg?v=1676182120",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "name": "Nike RetroRevive",
+      "category": "t-shirt",
+      "productid": "G9H0I1J2",
+      "defaultquantity": 1,
+      "range": "96-110",
+      "price": 100.36,
+      "colors": [
+        {
+          "url": "https://teestyled.com/cdn/shop/products/image_3166f8e3-0b2c-4398-b7ca-7b24d5b7480a.jpg?v=1678090134",
+          "color": "brown"
+        },
+        {
+          "url": "https://teestyled.com/cdn/shop/products/image_57228d3d-03ed-4829-ba8e-552d2272ce23.jpg?v=1676482554",
+          "color": "grey"
+        },
+        {
+          "url": "https://teestyled.com/cdn/shop/products/image_bfbb7564-dc71-4198-8f51-c190d9816037.jpg?v=1678090109",
+          "color": "darkgreen"
+        },
+        {
+          "url": "https://crazymonk.in/wp-content/uploads/2019/04/Eat-Sleep-Code-Repeat-Navy-scaled.jpg",
+          "color": "darkblue"
+        }
+      ]
+    },
+    {
+      "name": "Nike React Pro",
+      "category": "t-shirt",
+      "productid": "BD16D3E4",
+      "defaultquantity": 1,
+      "range": "50-65",
+      "price": 56.65,
+      "colors": [
+        {
+          "url": "https://www.teez.in/cdn/shop/products/React-Js-Developer-T-Shirt-For-Men-4_large.jpg?v=1587012863",
+          "color": "white"
+        },
+        {
+          "url": "https://www.teez.in/cdn/shop/products/React-Js-Developer-T-Shirt-For-Men-2_large.jpg?v=1587012745",
+          "color": "darkblue"
+        },
+        {
+          "url": "https://www.teez.in/cdn/shop/products/React-Js-Developer-T-Shirt-For-Men-3_large.jpg?v=1587012875",
+          "color": "black"
+        }
+      ]
+    },
+    {
+      "name": "Nike Python",
+      "category": "t-shirt",
+      "defaultquantity": 1,
+      "productid": "U6M1W7X8",
+      "range": "66-80",
+      "price": 66.78,
+      "colors": [
+        {
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxXJNq5VpxZHkZNgixNV7q05KutlN2uRHHyJTW8ZOu&s",
+          "color": "black"
+        },
+        {
+          "url": "https://www.hellotux.com/productimages/python_tshirt_darkblue_1.JPG",
+          "color": "darkblue"
+        }
+      ]
+    },
+    {
+      "name": "Nike Therma-fit",
+      "category": "hoodies",
+      "productid": "S5L1R1Q2",
+      "defaultquantity": 1,
+      "range": "31-49",
+      "price": 43.04,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b67df70c-6250-409c-9e11-eb1f40c46f9e/therma-fit-mens-pullover-fitness-hoodie-sVFS7Q.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a0b18407-5dd6-440f-a5a9-6a7f564b8e9c/therma-fit-mens-pullover-fitness-hoodie-sVFS7Q.png",
+          "color": "#ACE1AF"
+        }
+      ]
+    },
+    {
+      "name": "Nike InfinityWarm",
+      "category": "hoodies",
+      "defaultquantity": 1,
+      "productid": "H7I8JYZ0",
+      "range": "81-95",
+      "price": 81.5,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c7a1281f-3dff-4787-b2d1-75dfba058cef/therma-fit-mens-pullover-fitness-hoodie-sVFS7Q.png",
+          "color": "orangered"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/86911393-afeb-4be4-8a29-5e79ef41b6bb/therma-fit-mens-pullover-fitness-hoodie-sVFS7Q.png",
+          "color": "white"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/aa824f9c-6489-4930-8bfa-89af22c2e951/therma-fit-mens-pullover-fitness-hoodie-sVFS7Q.png",
+          "color": "grey"
+        }
+      ]
+    },
+    {
+      "name": "Nike Solo Swoosh",
+      "category": "hoodies",
+      "defaultquantity": 1,
+      "productid": "M1N2O3P4",
+      "range": "66-80",
+      "price": 74.91,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a6d3443f-ec74-478f-b9f9-b4c7f8eb9b9f/solo-swoosh-mens-full-zip-hoodie-8bKgZZ.png",
+          "color": "white"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b0a1d10f-1532-445a-8580-3f300fbcdc2a/solo-swoosh-mens-full-zip-hoodie-8bKgZZ.png",
+          "color": "#89CFF0"
+        }
+      ]
+    },
+    {
+      "name": "Nike Pro VarsityVibe ",
+      "category": "hoodies",
+      "productid": "L5K6J7I8",
+      "range": "31-49",
+      "price": 36.42,
+      "defaultquantity": 1,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/aa693763-479a-4dd1-84a1-a2f95b40260d/solo-swoosh-mens-full-zip-hoodie-8bKgZZ.png",
+          "color": "darkred"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fe444457-9b06-4376-9be8-a1551d7e9e81/solo-swoosh-mens-full-zip-hoodie-8bKgZZ.png",
+          "color": "black"
+        }
+      ]
+    },
+    {
+      "name": "Nike Pegasus 39",
+      "category": "running shoes",
+      "defaultquantity": 1,
+      "productid": "R3S4T5U6",
+      "range": "81-95",
+      "price": 92.12,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4e67b13e-83dc-4613-8d82-580331d501f9/pegasus-39-mens-road-running-shoes-t0zqlK.png",
+          "color": "darkgreen"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c39bbb6b-3e94-4871-b324-c94530194909/pegasus-39-mens-road-running-shoes-t0zqlK.png",
+          "color": "darkblue"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/293fc39f-74fc-4bda-bdae-8916b9789eb7/pegasus-39-mens-road-running-shoes-t0zqlK.png",
+          "color": "darkred"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1f5af0be-f5be-4336-b119-f90ab214e3fa/pegasus-39-mens-road-running-shoes-t0zqlK.png",
+          "color": "orangered"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f6422ae0-6547-4b81-b1b8-9c64c75fd45a/pegasus-39-mens-road-running-shoes-t0zqlK.png",
+          "color": "purple"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d0018c80-6420-44e4-a94e-64b64627d662/pegasus-39-mens-road-running-shoes-t0zqlK.png",
+          "color": "navajowhite"
+        }
+      ]
+    },
+    {
+      "name": "Nike Woodsy",
+      "category": "hoodies",
+      "productid": "U9V0W1X2",
+      "range": "81-95",
+      "defaultquantity": 1,
+      "price": 90.11,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d13f96ba-894f-46c0-97d3-dffc42e759e4/solo-swoosh-mens-full-zip-hoodie-8bKgZZ.png",
+          "color": "#B9D9EB"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ca676f3b-f004-47c3-bb0b-085a53c81b2f/solo-swoosh-mens-full-zip-hoodie-8bKgZZ.png",
+          "color": "darkblue"
+        }
+      ]
+    },
+    {
+      "name": "Nike Air Force 1 ",
+      "category": "running shoes",
+      "productid": "Q1M6W7X8",
+      "defaultquantity": 1,
+      "range": "66-80",
+      "price": 67.42,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/dcbb34f4-04e9-413d-bf41-be3ad18051cf/custom-nike-air-force-1-low-by-you.png",
+          "color": "white"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7af8241b-654c-48d4-adb6-f48c71544d69/custom-nike-air-force-1-low-by-you.png",
+          "color": "yellow"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/dabf7785-3954-4cca-93f9-d2164ecd8f8e/custom-nike-air-force-1-low-by-you.png",
+          "color": "#B2FFFF"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/6e097acf-6dd2-4afb-bfe6-42de7820e532/custom-nike-air-force-1-low-by-you.png",
+          "color": "blue"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/10763053-5bb9-4bde-9218-46e529223fcc/custom-nike-air-force-1-low-by-you.png",
+          "color": "silver"
+        }
+      ]
+    },
+    {
+      "name": "Nike Fleece Min",
+      "category": "hoodies",
+      "productid": "Z5Y6W4U8",
+      "defaultquantity": 1,
+      "range": "31-49",
+      "price": 34.51,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0aebb551-3176-45c3-af69-cd8bb02ee177/sportswear-tech-fleece-mens-crew-xN0gwb.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/adc08d99-c0c4-42db-9cca-89cbe7dbf80e/sportswear-tech-fleece-mens-crew-xN0gwb.png",
+          "color": "#483D8B"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2e2709d2-d364-4074-9ba2-7fafc95d17a3/sportswear-tech-fleece-mens-crew-xN0gwb.png",
+          "color": "red"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/11d032f2-6433-4694-a83b-add65f586ba3/sportswear-tech-fleece-mens-crew-xN0gwb.png",
+          "color": "silver"
+        }
+      ]
+    },
+    {
+      "name": "Nike Solo Retropiper",
+      "category": "joggers",
+      "productid": "T7S8A5Q0",
+      "defaultquantity": 1,
+      "range": "66-80",
+      "price": 68.57,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d13f96ba-894f-46c0-97d3-dffc42e759e4/solo-swoosh-mens-full-zip-hoodie-8bKgZZ.png",
+          "color": "#B9D9EB"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ca676f3b-f004-47c3-bb0b-085a53c81b2f/solo-swoosh-mens-full-zip-hoodie-8bKgZZ.png",
+          "color": "darkblue"
+        }
+      ]
+    },
+    {
+      "name": "Nike Zegama",
+      "category": "running shoes",
+      "productid": "K9L0I1J2",
+      "range": "31-49",
+      "price": 38.76,
+      "defaultquantity": 1,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/29a69268-55ec-4414-9dc9-061e17027a6b/zegama-mens-trail-running-shoes-1t400b.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/64acf11e-3220-4631-854d-a99b1b7b6932/zegama-mens-trail-running-shoes-1t400b.png",
+          "color": "brown"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b8e894a1-e5d7-4362-9ef3-e2ab66904687/zegama-mens-trail-running-shoes-1t400b.png",
+          "color": "white"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/78e7279a-d619-4422-bc6e-81437a920864/zegama-mens-trail-running-shoes-1t400b.png",
+          "color": "orangered"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0ac026b3-543b-4c29-8b7c-f3588ed80e98/zegama-mens-trail-running-shoes-1t400b.png",
+          "color": "aquamarine"
+        }
+      ]
+    },
+    {
+      "name": "Nike Cloud Dev",
+      "category": "t-shirt",
+      "productid": "E3F4G5H6",
+      "defaultquantity": 1,
+      "range": "50-65",
+      "price": 60.85,
+      "colors": [
+        {
+          "url": "https://ae01.alicdn.com/kf/H5c7051f318b440048814a9ef92bbccc1H.jpg",
+          "color": "black"
+        },
+        {
+          "url": "https://ae01.alicdn.com/kf/H55b68b539d8049eaa0ebb871049ea073v.jpg",
+          "color": "darkviolet"
+        },
+        {
+          "url": "https://ae01.alicdn.com/kf/H5bc0a2e429eb4676a272d1b7133d5cbbC.jpg",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "name": "Nike Code Mode",
+      "category": "t-shirt",
+      "productid": "C0C1D9I0",
+      "range": "31-49",
+      "defaultquantity": 1,
+      "price": 39.38,
+      "colors": [
+        {
+          "url": "https://tekkietown.co.za/cdn/shop/files/180139_COD2393_604_01_front45.jpg?v=1683554261&width=600",
+          "color": "red"
+        },
+        {
+          "url": "https://www.firelabel.co.uk/Assets/User/AutoUpload//Ecologie%20by%20AWDis/Product%20Images/EA001B/EA001B%20BOT%20FRONT_0_570.jpg",
+          "color": "darkgreen"
+        },
+        {
+          "url": "https://www.firelabel.co.uk/Assets/User/AutoUpload//Ecologie%20by%20AWDis/Product%20Images/EA001B/EA001B%20JBK%20FRONT_0_570.jpg",
+          "color": "black"
+        }
+      ]
+    },
+    {
+      "name": "Nike T-Programmer",
+      "category": "t-shirt",
+      "defaultquantity": 1,
+      "productid": "P1V6W5X8",
+      "range": "81-95",
+      "price": 88.5,
+      "colors": [
+        {
+          "url": "https://www.firelabel.co.uk/Assets/User/AutoUpload//Ecologie%20by%20AWDis/Product%20Images/EA001B/EA001B%20NAV%20FRONT_0_570.jpg",
+          "color": "darkblue"
+        },
+        {
+          "url": "https://www.firelabel.co.uk/Assets/User/AutoUpload//Ecologie%20by%20AWDis/Product%20Images/EA001B/EA001B%20CHA%20FRONT_0_570.jpg",
+          "color": "black"
+        },
+        {
+          "url": "https://www.firelabel.co.uk/Assets/User/AutoUpload//Ecologie%20by%20AWDis/Product%20Images/EA001B/EA001B%20IKB%20FRONT_0_570.jpg",
+          "color": "lightskyblue"
+        }
+      ]
+    },
+    {
+      "name": "Nike Linux Galaxy",
+      "category": "t-shirt",
+      "productid": "A7S0R1P8",
+      "range": "31-49",
+      "defaultquantity": 1,
+      "price": 33.83,
+      "colors": [
+        {
+          "url": "https://www.tecmint.com/wp-content/uploads/2016/07/Be-Cool-Use-Linux-T-Shirt.jpg",
+          "color": "aquamarine"
+        },
+        {
+          "url": "https://www.hellotux.com/productimages/linux_tshirt_white_1.JPG",
+          "color": "white"
+        },
+        {
+          "url": "https://www.hellotux.com/productimages/linux_tshirt_green_1.JPG",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "name": "Nike IP 127A",
+      "category": "t-shirt",
+      "productid": "A5Y6Z1P1",
+      "defaultquantity": 1,
+      "range": "81-95",
+      "price": 85.96,
+      "colors": [
+        {
+          "url": "https://www.teez.in/cdn/shop/products/My-Address-Is-127.jpg4_large.jpg?v=1571504797",
+          "color": "blue"
+        },
+        {
+          "url": "https://www.teez.in/cdn/shop/products/My-Address-Is-127.16.jpg5_large.jpg?v=1571504797",
+          "color": "white"
+        },
+        {
+          "url": "https://www.teez.in/cdn/shop/products/My-Address-Is-127.16.0-T-Shirt-1_large.jpg?v=1571504797",
+          "color": "red"
+        },
+        {
+          "url": "https://www.artlebedev.com/t-shirts/ip/ip.gif",
+          "color": "black"
+        }
+      ]
+    },
+    {
+      "name": "Nike Solo Nerd",
+      "category": "t-shirt",
+      "defaultquantity": 1,
+      "productid": "G9H0U1M3",
+      "range": "66-80",
+      "price": 71.27,
+      "colors": [
+        {
+          "url": "https://crazymonk.in/wp-content/uploads/2019/02/nerd.jpg",
+          "color": "darkblue"
+        },
+        {
+          "url": "https://prime-bbq.com/wp-content/uploads/2019/05/PrimeBarbecue_T-Shirt_BarbecueNerd_front.jpg",
+          "color": "grey"
+        }
+      ]
+    },
+    {
+      "name": "Nike Dev Admin",
+      "category": "t-shirt",
+      "productid": "V3U4T2P1",
+      "range": "31-49",
+      "defaultquantity": 1,
+      "price": 43.24,
+      "colors": [
+        {
+          "url": "https://m.media-amazon.com/images/I/A13usaonutL._CLa%7C2140%2C2000%7C61MWwiFMnnL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UX425_.png",
+          "color": "black"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/B1EryObaEWS._CLa%7C2140%2C2000%7C61MWwiFMnnL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SX425._SX._UX._SY._UY_.png",
+          "color": "blue"
+        },
+        {
+          "url": "https://devtshirts.com/wp-content/uploads/2023/04/dev190_03.jpg",
+          "color": "orange"
+        }
+      ]
+    },
+    {
+      "name": "Nike Structure 25",
+      "category": "running shoes",
+      "productid": "Q1V2W3X4",
+      "range": "50-65",
+      "defaultquantity": 1,
+      "price": 61.57,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/26e06a28-c94d-4483-adc3-4700e4aecd86/structure-25-mens-road-running-shoes-Xsg0D0.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7587f702-83cb-4dbc-8355-35f07adcb057/structure-25-mens-road-running-shoes-Xsg0D0.png",
+          "color": "darkblue"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0d20d851-15df-407c-9bd5-bac35dc838a7/structure-25-premium-mens-road-running-shoes-Xsg0D0.png",
+          "color": "#FFE4B5"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/585145de-9492-4fa9-b623-e1d9bfdc6db1/wio-10-mens-road-running-shoes-DZQPJN.png",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "name": "Nike CampusClassic 5",
+      "category": "joggers",
+      "defaultquantity": 1,
+      "productid": "R2S4T5W1",
+      "range": "50-65",
+      "price": 55.03,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/38a0113b-84f3-4b23-829d-940812db3a61/metcon-9-mens-workout-shoes-00kjPz.png",
+          "color": "silver"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2a14bf14-2d2c-49a3-b168-2a8e150acb4c/metcon-9-mens-workout-shoes-00kjPz.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/662c755a-aae2-4ad6-96b4-c1cc4202f14d/free-metcon-5-russell-wilson-mens-workout-shoes-nXK2SJ.png",
+          "color": "orange"
+        }
+      ]
+    },
+    {
+      "name": "Nike Metcon 5",
+      "range": "66-80",
+      "defaultquantity": 1,
+      "category": "joggers",
+      "productid": "E7F4G9O1",
+      "price": 67.61,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7542fe72-eae6-49a2-8918-28a17aaf2c4c/free-metcon-5-mens-workout-shoes-Vfsbpq.png",
+          "color": "white"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fbbdd9c4-c434-4dd5-9e4b-0bea2ea16b58/free-metcon-5-mens-workout-shoes-Vfsbpq.png",
+          "color": "blue"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4df4b545-9774-41f4-bd9c-0bbf7fa383db/free-metcon-5-mens-workout-shoes-Vfsbpq.png",
+          "color": "#87A96B"
+        }
+      ]
+    },
+    {
+      "name": "Nike Trail 2",
+      "category": "running shoes",
+      "productid": "G7H8I9J0",
+      "defaultquantity": 1,
+      "range": "96-110",
+      "price": 99.73,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/27c96321-e45c-4d63-ad6e-96eb63fa598c/juniper-trail-2-mens-trail-running-shoes-lFQ3lS.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/671509cf-bee1-48ce-ab30-4199bdb138d0/juniper-trail-2-mens-trail-running-shoes-lFQ3lS.png",
+          "color": "white"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1894f1c1-e603-4298-a977-dd054b45a61c/juniper-trail-2-mens-trail-running-shoes-lFQ3lS.png",
+          "color": "orangered"
+        }
+      ]
+    },
+    {
+      "name": "Nike SB Zoom Mid",
+      "category": "running shoes",
+      "productid": "O1P2Q3R4",
+      "range": "81-95",
+      "defaultquantity": 1,
+      "price": 84.59,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e0c278eb-9e12-4d99-a9a2-61a074a40d74/sb-zoom-blazer-mid-skate-shoes-qX3MZV.png",
+          "color": "red"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7c8ba4d2-0980-4406-aec3-70e5bd850ba4/sb-zoom-blazer-mid-skate-shoes-qX3MZV.png",
+          "color": "#ADD8E6"
+        }
+      ]
+    },
+    {
+      "name": "Nike 3D Metcon",
+      "category": "joggers",
+      "defaultquantity": 1,
+      "productid": "A1B2C1U3",
+      "range": "31-49",
+      "price": 47.45,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/441fd070-b21d-4ccc-a9cd-380455b44151/free-metcon-5-mens-workout-shoes-Vfsbpq.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9d71dd66-8b47-4384-afba-3870278edc25/free-metcon-5-mens-workout-shoes-Vfsbpq.png",
+          "color": "silver"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/20544254-305c-4ec6-8347-da1259be4bc6/free-metcon-5-mens-workout-shoes-Vfsbpq.png",
+          "color": "grey"
+        }
+      ]
+    },
+    {
+      "name": "Nike Max WF",
+      "category": "joggers",
+      "productid": "H9I0J1K2",
+      "defaultquantity": 1,
+      "range": "66-80",
+      "price": 73.53,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f0181196-c14e-4c2d-a08b-4b301ff7b42e/metcon-8-mens-workout-shoes-ppltpW.png",
+          "color": "silver"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d759e433-e2fe-45ea-9cf5-64552167e9a7/metcon-8-mens-workout-shoes-ppltpW.png",
+          "color": "white"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/61d18281-89f5-4a1d-a0a5-3f426a8a5d03/metcon-8-mens-workout-shoes-ppltpW.png",
+          "color": "#39FF14"
+        }
+      ]
+    },
+    {
+      "name": "Nike ZenZone",
+      "category": "joggers",
+      "productid": "R9S8T9X4",
+      "defaultquantity": 1,
+      "range": "81-95",
+      "price": 89.95,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8b96cce5-03df-40b6-8d6c-efe831d11115/motiva-mens-walking-shoes-0vX49k.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c4bb016f-e8ad-4101-a889-ae339a171e49/free-metcon-5-tb-mens-workout-shoes-NSvcRt.png",
+          "color": "#BA0021"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/92d1abe6-d36a-4299-b976-6938334d862e/free-metcon-5-tb-mens-workout-shoes-NSvcRt.png",
+          "color": "#018749"
+        }
+      ]
+    },
+    {
+      "name": "Nike Wildhorse 8",
+      "category": "running shoes",
+      "productid": "L2Q4N5O7",
+      "range": "66-80",
+      "price": 76.35,
+      "defaultquantity": 1,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5d3a49a8-b941-449d-b917-50e803eb45cd/wildhorse-8-mens-trail-running-shoes-zPRz8Z.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d2bf783f-9a13-4e24-ac77-41bf2708a762/wildhorse-8-mens-trail-running-shoes-zPRz8Z.png",
+          "color": "#7CB9E8"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/cf2dba85-000a-4a22-8469-1bde3a3ebe3f/wildhorse-8-mens-trail-running-shoes-zPRz8Z.png",
+          "color": "#00CCCC"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c7d7828a-720e-4c7b-bcde-697b7b97b44d/wildhorse-8-mens-trail-running-shoes-zPRz8Z.png",
+          "color": "orangered"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/448c68d9-cae7-4021-a298-4a2a0c1ccc67/wildhorse-8-mens-trail-running-shoes-zPRz8Z.png",
+          "color": "darkblue"
+        }
+      ]
+    },
+    {
+      "name": "Nike Flex 14",
+      "category": "joggers",
+      "defaultquantity": 1,
+      "productid": "T0S6R1T8",
+      "range": "50-65",
+      "price": 62.21,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1d55c75b-d673-4fe5-bd3d-c6e7f8507808/flex-control-4-mens-workout-shoes-14Z62l.png",
+          "color": "white"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b032abc3-ec58-4857-a216-81b36a9f8fdd/flex-control-4-mens-workout-shoes-14Z62l.png",
+          "color": "black"
+        }
+      ]
+    },
+    {
+      "name": "Nike Vomero 16",
+      "category": "running shoes",
+      "productid": "X7Y8Z9W0",
+      "defaultquantity": 1,
+      "range": "96-110",
+      "price": 103.45,
+      "colors": [
+        {
+          "url": "hhttps://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2de52cbf-c004-4b8c-8665-ad7a6fb8ca5f/vomero-16-mens-road-running-shoes-8zSBBk.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2826f16f-60c9-4fcc-9f00-57a9785a9b7d/vomero-16-mens-road-running-shoes-8zSBBk.png",
+          "color": "orangered"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/75c4b548-b4ff-4fb4-9362-41a8331d6e39/vomero-16-mens-road-running-shoes-8zSBBk.png",
+          "color": "blue"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/18ac3091-5615-4b51-b833-f3d8f909b35c/vomero-16-mens-road-running-shoes-8zSBBk.png",
+          "color": "white"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/878d8ed9-e37a-490c-8f74-408b4ce20b79/vomero-16-mens-road-running-shoes-8zSBBk.png",
+          "color": "Cyan"
+        }
+      ]
+    },
+    {
+      "name": "Nike Winflo 10",
+      "category": "running shoes",
+      "productid": "A1B2C3D4",
+      "defaultquantity": 1,
+      "range": "50-65",
+      "price": 57.28,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/77049a0c-3c99-4ca7-8264-4ea238435140/wio-10-mens-road-running-shoes-DZQPJN.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fff68088-255f-40b2-aea7-0fc0af16c1c9/wio-10-mens-road-running-shoes-DZQPJN.png",
+          "color": "blue"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/51833e97-f4d6-4063-a0cc-0ab6d6a03ad6/wio-10-mens-road-running-shoes-DZQPJN.png",
+          "color": "white"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/585145de-9492-4fa9-b623-e1d9bfdc6db1/wio-10-mens-road-running-shoes-DZQPJN.png",
+          "color": "green"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/09997ca4-6fe3-4085-8d9d-29d2547d8b4f/air-wio-10-mens-road-running-shoes-DZQPJN.png",
+          "color": "silver"
+        }
+      ]
+    },
+    {
+      "name": "Nike Wanderer",
+      "category": "joggers",
+      "productid": "J9W0V1H3",
+      "defaultquantity": 1,
+      "price": 106.76,
+      "range": "96-110",
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/71e7d7f9-88b1-48ff-8ad7-a7b699cf869c/flex-control-4-mens-workout-shoes-14Z62l.png",
+          "color": "silver"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/299066a9-d8b1-4ade-8da9-d7bd750e44fc/flex-control-4-mens-workout-shoes-14Z62l.png",
+          "color": "darkblue"
+        }
+      ]
+    },
+    {
+      "name": "Nike Axios",
+      "category": "joggers",
+      "productid": "P1F4G5J6",
+      "range": "50-65",
+      "defaultquantity": 1,
+      "price": 59.08,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/87702efd-1157-49e2-834b-1f67b8ab8256/zoom-metcon-turbo-2-mens-workout-shoes-qzmdn3.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/184f3c40-8926-46c3-8193-7b8ad95427e2/zoom-metcon-turbo-2-mens-workout-shoes-qzmdn3.png",
+          "color": "white"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/af743e2d-b411-4692-ada6-c84c21a8f6c4/zoom-metcon-turbo-2-mens-workout-shoes-qzmdn3.png",
+          "color": "#00FFFF"
+        }
+      ]
+    },
+    {
+      "name": "Nike Pro HTML",
+      "category": "t-shirt",
+      "productid": "QEW0VL12",
+      "defaultquantity": 1,
+      "price": 104.09,
+      "range": "96-110",
+      "colors": [
+        {
+          "url": "https://i.etsystatic.com/29197595/r/il/d9f737/5300687669/il_794xN.5300687669_tb7p.jpg",
+          "color": "black"
+        },
+        {
+          "url": "https://i.etsystatic.com/29197595/r/il/54c937/5252501666/il_794xN.5252501666_s31f.jpg",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "name": "Nike ArcticStorm",
+      "category": "joggers",
+      "productid": "C3A8D9I0",
+      "range": "31-49",
+      "defaultquantity": 1,
+      "price": 40.61,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/aa67d6c5-4eb9-4e9a-9f23-1e8a04846f34/zoom-metcon-turbo-2-mens-workout-shoes-qzmdn3.png",
+          "color": "#66FF00"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d646b481-eece-4618-83b6-2aef6bb85047/zoom-metcon-turbo-2-mens-workout-shoes-qzmdn3.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f6e56fa2-a155-4680-b882-3237a8a525c7/zoom-metcon-turbo-2-mens-workout-shoes-qzmdn3.png",
+          "color": "silver"
+        }
+      ]
+    },
+    {
+      "name": "Nike SuperCycle",
+      "category": "joggers",
+      "productid": "T1S0R6K0",
+      "defaultquantity": 1,
+      "range": "66-80",
+      "price": 70.01,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6b91cd4b-9199-4f56-bd3c-121f5d9b86ec/superrep-cycle-2-next-nature-indoor-cycling-shoes-fNRjQJ.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e577be45-3a19-4bce-9bab-0f6257d470ba/superrep-cycle-2-next-nature-indoor-cycling-shoes-fNRjQJ.png",
+          "color": "#F2003C"
+        },
+        {
+          "url": "https://crazymonk.in/wp-content/uploads/2020/09/GET-me-some-APIs-now-Half-Sleeve-Grey-1466x2048.jpg",
+          "color": "grey"
+        }
+      ]
+    },
+    {
+      "name": "Nike Trainer Alpha",
+      "category": "joggers",
+      "productid": "B0A6Z7W8",
+      "defaultquantity": 1,
+      "price": 38.13,
+      "range": "31-49",
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c95a8a1b-8e71-487d-9407-a9b181fc7caa/air-max-alpha-trainer-5-mens-workout-shoes-7LjRM6.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9519de9d-7e8f-40cf-afe5-4693cb9ecaaa/air-max-alpha-trainer-5-mens-workout-shoes-7LjRM6.png",
+          "color": "blue"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/af353971-8200-4314-a5a4-c2d815e69f2b/air-max-alpha-trainer-5-mens-workout-shoes-7LjRM6.png",
+          "color": "grey"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9a38a1d8-bbf4-4a1b-8630-e7737f119a30/air-max-alpha-trainer-5-mens-workout-shoes-7LjRM6.png",
+          "color": "#FFA07A"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9d3f168f-530c-4f96-bef8-e199e371c859/air-max-alpha-trainer-5-mens-workout-shoes-7LjRM6.png",
+          "color": "silver"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a162ca4b-a442-4182-bfa0-4be07063e623/air-max-alpha-trainer-5-mens-workout-shoes-7LjRM6.png",
+          "color": "#318CE7"
+        }
+      ]
+    },
+    {
+      "name": "Nike Standard-Zip",
+      "category": "hoodies",
+      "defaultquantity": 1,
+      "productid": "E5R4N5O6",
+      "price": 37.2,
+      "range": "31-49",
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2c97cf6c-63b6-494e-a87e-07ed043e95b3/standard-issue-mens-dri-fit-full-zip-basketball-hoodie-GJnRT3.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2eb01dcf-3a49-4c31-9417-e2e8a2f26b88/standard-issue-mens-dri-fit-full-zip-basketball-hoodie-GJnRT3.png",
+          "color": "darkred"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/34ab7907-0b3c-402b-b3ca-cd84e7bd9b88/standard-issue-mens-dri-fit-full-zip-basketball-hoodie-GJnRT3.png",
+          "color": "#E2DFD2"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/21a50ad1-ef06-49f8-b689-db1d8e8b1a74/standard-issue-mens-dri-fit-full-zip-basketball-hoodie-GJnRT3.png",
+          "color": "#23297A"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/509a38c6-18f7-41b3-b60d-d67605375806/standard-issue-mens-dri-fit-full-zip-basketball-hoodie-GJnRT3.png",
+          "color": " #00FFEF"
+        }
+      ]
+    },
+    {
+      "name": "Nike  Windrunner Hooded",
+      "category": "jacket",
+      "defaultquantity": 1,
+      "productid": "L1H0I1J3",
+      "price": 101.2,
+      "range": "96-110",
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8929e9f7-83d1-4395-8bfd-7227d04ad2c5/sportswear-windrunner-mens-hooded-jacket-5hK13x.png",
+          "color": "white"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b0c7b650-ce1b-4cb2-8595-5ed3dc183823/sportswear-windrunner-mens-hooded-jacket-5hK13x.png",
+          "color": "orange"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7915f368-c8b6-4bbe-a492-df384620babe/sportswear-windrunner-mens-hooded-jacket-5hK13x.png",
+          "color": "lightskyblue"
+        }
+      ]
+    },
+    {
+      "name": "Nike Drift",
+      "category": "jacket",
+      "productid": "T9O5R1Q2",
+      "price": 46.21,
+      "defaultquantity": 1,
+      "range": "31-49",
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/937687b2-ae71-43ba-8944-28e19a7ce348/form-mens-dri-fit-versatile-jacket-qSsBth.png",
+          "color": "goldenrod"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a771d5af-4cf5-47c8-8a5d-39dd8d729ba1/form-mens-dri-fit-versatile-jacket-qSsBth.png",
+          "color": "darkblue"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7eb9c19c-c305-4c35-b3ee-46d19c2bd06f/form-mens-dri-fit-versatile-jacket-qSsBth.png",
+          "color": "silver"
+        }
+      ]
+    },
+    {
+      "name": "Nike Cityscape",
+      "category": "jacket",
+      "productid": "H1R6O3P4",
+      "defaultquantity": 1,
+      "range": "66-80",
+      "price": 75.63,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5f196c3a-08db-4037-8c37-dd29e12fa12e/repel-unlimited-mens-water-repellent-hooded-versatile-jacket-56pDjs.png",
+          "color": "goldenrod"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4d2a3c6d-8ad8-4a4a-aac8-213bde383bd7/mens-woven-basketball-jacket-MFcZKx.png",
+          "color": "black"
+        }
+      ]
+    },
+    {
+      "name": "Nike SB Tanglin",
+      "category": "jacket",
+      "productid": "L5K6J0I1",
+      "range": "31-49",
+      "price": 34.95,
+      "defaultquantity": 1,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f5881b98-bfb3-44e8-b0db-9022fe1334c3/sb-tanglin-woven-skate-button-up-long-sleevetop-bP7Q1c.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7c064f85-195c-4573-a4dc-11db98a49cbf/sb-tanglin-woven-skate-button-up-long-sleevetop-bP7Q1c.png",
+          "color": "goldenrod"
+        }
+      ]
+    },
+    {
+      "name": "Nike SB Woven",
+      "category": "jacket",
+      "productid": "U8V0W0Y2",
+      "defaultquantity": 1,
+      "range": "96-110",
+      "price": 97.49,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c8bfaabc-ab6d-4fd4-8f77-f3638f54cbcb/sb-woven-twill-premium-skate-jacket-cX5nfF.png",
+          "color": "red"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/57559eaf-a563-4c5a-9d48-cbe366caeb9f/sb-woven-twill-premium-skate-jacket-cX5nfF.png",
+          "color": "darkblue"
+        }
+      ]
+    },
+    {
+      "name": "Nike Metcon 9",
+      "category": "joggers",
+      "productid": "A9L0I1K3",
+      "range": "96-110",
+      "defaultquantity": 1,
+      "price": 102.82,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2c3f0a39-7654-472e-aaea-5a3b4b980dab/metcon-9-mens-workout-shoes-00kjPz.png",
+          "color": "white"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/dc187d4e-3fc0-4777-a200-31a56353fd15/metcon-9-mens-workout-shoes-00kjPz.png",
+          "color": "#8F9779"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/485358b3-c1c5-41d2-8598-f8baa78a23f5/metcon-9-mens-workout-shoes-00kjPz.png",
+          "color": "#FF7F50"
+        }
+      ]
+    },
+    {
+      "name": "Nike Pro Trekking ",
+      "category": "jacket",
+      "productid": "P3O4N9O6",
+      "defaultquantity": 1,
+      "range": "50-65",
+      "price": 52.26,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c82bbbc1-2cc6-4632-ab7c-90508b0e87fe/swoosh-mens-woven-jacket-GL20C3.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9f5a5ac6-3515-4760-bc4b-704e4c271526/swoosh-mens-woven-jacket-GL20C3.png",
+          "color": "darkblue"
+        }
+      ]
+    },
+    {
+      "name": "Nike Slicker-FIT ",
+      "category": "jacket",
+      "productid": "P5W0V1L2",
+      "defaultquantity": 1,
+      "range": "96-110",
+      "price": 105.47,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6f14cdf1-7b49-461c-9b34-68cf08903a31/therma-fit-adv-repel-mens-1-2-zip-golf-jacket-6LGGvt.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9d7d336c-95d7-421f-971f-4ae2fa4e2055/therma-fit-adv-repel-mens-1-2-zip-golf-jacket-6LGGvt.png",
+          "color": "lightskyblue"
+        }
+      ]
+    },
+    {
+      "name": "Nike Sport Jam",
+      "category": "jacket",
+      "productid": "F3E4D5C6",
+      "range": "50-65",
+      "defaultquantity": 1,
+      "price": 58.43,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1540f4b8-115f-40a6-9271-cb6aff0369d2/jordan-sport-jam-mens-warm-up-jacket-7G3LPt.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0a27c252-90ea-4a10-a858-832e6d34acba/jordan-sport-jam-mens-warm-up-jacket-7G3LPt.png",
+          "color": "lightskyblue"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f1794508-df43-4115-92d9-a42c5232ef5c/jordan-sport-jam-mens-warm-up-jacket-7G3LPt.png",
+          "color": "darkblue"
+        }
+      ]
+    },
+    {
+      "name": "Nike Renegade",
+      "category": "jacket",
+      "productid": "K9J0P2H3",
+      "defaultquantity": 1,
+      "range": "31-49",
+      "price": 37.68,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/90532933-ea1e-4dcc-98e4-ef5f1c0a8a97/jordan-essentials-mens-renegade-jacket-VpCtGC.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/cd113670-5530-44b2-8314-2360c35f7e36/jordan-essentials-mens-renegade-jacket-VpCtGC.png",
+          "color": "golden"
+        }
+      ]
+    },
+    {
+      "name": "Nike Vaporfly 3",
+      "category": "running shoes",
+      "productid": "M5N6O7P8",
+      "defaultquantity": 1,
+      "range": "66-80",
+      "price": 72.99,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7be72388-aeb0-4790-8c30-d0793e79cc49/vaporfly-3-eliud-kipchoge-mens-road-racing-shoes-8DD182.png",
+          "color": "white"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/074a1533-2083-4821-a7c4-4475b2b151f6/vaporfly-3-mens-road-racing-shoes-8DD182.png",
+          "color": "pink"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b9b09fef-36a3-4550-ba4b-844a34308495/vaporfly-3-mens-road-racing-shoes-8DD182.png",
+          "color": "cyan"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1af9c87c-6e11-4bc6-ad66-648558bc49b7/vaporfly-3-mens-road-racing-shoes-8DD182.png",
+          "color": "silver"
+        }
+      ]
+    },
+    {
+      "name": "Nike Men's Lightweight",
+      "category": "jacket",
+      "productid": "U5V6W7X8",
+      "defaultquantity": 1,
+      "range": "50-65",
+      "price": 64.5,
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ba6f34a3-600b-4a22-a2cd-c0a00a447de4/mens-lightweight-full-zip-basketball-jacket-Kw70vc.png",
+          "color": "black"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7e38f88b-7046-4edd-9bfe-486ca42a61fa/mens-lightweight-full-zip-basketball-jacket-Kw70vc.png",
+          "color": "lightskyblue"
+        }
+      ]
+    },
+    {
+      "name": "Nike Max Hoodie",
+      "category": "hoodies",
+      "productid": "A2F4G5P1",
+      "defaultquantity": 1,
+      "price": 45.48,
+      "range": "31-49",
+      "colors": [
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/cc6a1283-a849-4123-8b31-e73731ba960d/sportswear-club-fleece-pullover-hoodie-Gw4Nwq.png",
+          "color": "#90EE90"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6b12b8e2-6b29-4046-b091-2e42cc0a5ccc/sportswear-club-fleece-pullover-hoodie-Gw4Nwq.png",
+          "color": "#faf0be"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4fb34f9e-97d8-4329-9b75-fec0a7871899/sportswear-club-fleece-pullover-hoodie-Gw4Nwq.png",
+          "color": "aquamarine"
+        },
+        {
+          "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7c2055ce-472a-443f-be8e-c921be3e666e/sportswear-club-fleece-pullover-hoodie-Gw4Nwq.png",
+          "color": "#a1dda1"
+        }
+      ]
+    }
+  ],
+  "category": [
+    {
+      "value": "running shoes",
+      "label": "Running Shoes",
+      "checked": false
+    },
+    {
+      "value": "hoodies",
+      "label": "Hoodies",
+      "checked": false
+    },
+    {
+      "value": "t-shirt",
+      "label": "T-shirt",
+      "checked": false
+    },
+    {
+      "value": "joggers",
+      "label": "Joggers",
+      "checked": false
+    },
+    {
+      "value": "jacket",
+      "label": "Jacket",
+      "checked": false
+    }
+  ],
+  "range": [
+    {
+      "value": "31-49",
+      "label": "31-49",
+      "checked": false
+    },
+    {
+      "value": "50-65",
+      "label": "50-65",
+      "checked": false
+    },
+    {
+      "value": "66-80",
+      "label": "66-80",
+      "checked": false
+    },
+    {
+      "value": "81-95",
+      "label": "81-95",
+      "checked": false
+    },
+    {
+      "value": "96-110",
+      "label": "96-110",
+      "checked": false
+    }
+  ],
+  "carts": [
+    {
+      "name": "Nike Polar",
+      "category": "jacket",
+      "range": "66-80",
+      "productid": "H7I8J9K0",
+      "price": 79.42,
+      "defaultquantity": 1,
+      "Imageshow": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e2b09179-2b25-4316-b4d3-0f6c8d0df8f3/repel-unlimited-mens-water-repellent-hooded-versatile-jacket-56pDjs.png",
+      "selectedColor": "darkblue",
+      "selectedSize": "L",
+      "ItemTotal": 79.42,
+      "userid": 1,
+      "id": 1
+    },
+    {
+      "name": "Nike Polar",
+      "category": "jacket",
+      "range": "66-80",
+      "productid": "H7I8J9K0",
+      "price": 79.42,
+      "defaultquantity": 1,
+      "Imageshow": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e2b09179-2b25-4316-b4d3-0f6c8d0df8f3/repel-unlimited-mens-water-repellent-hooded-versatile-jacket-56pDjs.png",
+      "selectedColor": "darkblue",
+      "selectedSize": "M",
+      "ItemTotal": 79.42,
+      "userid": 2,
+      "id": 2
+    }
+  ],
+  "orders": [],
+  "users": [
+    {
+      "email": "daniyal123@gmail.com",
+      "password": "Daniyal@123",
+      "id": 1
+    },
+    {
+      "email": "rehab453@gmail.com",
+      "password": "rehab@453",
+      "id": 2
+    },
+    {
+      "email": "rehab1234@gmail.com",
+      "password": "rehab@123",
+      "id": 3
+    }
+  ],
+  "special": [
+    {
+      "id": "SHOE001",
+      "price": "99.99",
+      "name": " Nike SwiftStride",
+      "url": "https://img.freepik.com/premium-photo/running-shoes-white-background_10541-635.jpg?w=740"
+    },
+    {
+      "id": "SHOE002",
+      "price": "89.99",
+      "name": " Nike AeroFlex",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_VIhVjoiCdLGhaNU3jS9Rv4boHiS988nttw&usqp=CAU"
+    },
+    {
+      "id": "SHOE003",
+      "price": "79.99",
+      "name": "Nike UltraSprint",
+      "url": "https://media.istockphoto.com/id/479382464/vector/blue-sport-shoes-for-running.jpg?s=612x612&w=0&k=20&c=v_fkHkodSuuZnH3dswhtKJz8aZmNgwxjfYOQ0ocvOdA="
+    },
+    {
+      "id": "SHOE004",
+      "price": "109.99",
+      "name": "Nike HorizonRun",
+      "url": "https://previews.123rf.com/images/neelsky/neelsky1601/neelsky160100031/51332053-beautiful-and-stylish-men-s-sport-shoes-over-white-background.jpg"
+    },
+    {
+      "id": "SHOE005",
+      "price": "119.99",
+      "name": " Nike VelocityBurst",
+      "url": "https://media.istockphoto.com/id/1249496770/photo/running-shoes.jpg?s=1024x1024&w=is&k=20&c=pvn3pnD5rbSz7LT1zbCkgMd6PyEXeo7QdzjDCRNHunI="
+    },
+    {
+      "id": "SHOE006",
+      "price": "129.99",
+      "name": " Nike NimbusBoost",
+      "url": "https://previews.123rf.com/images/kreinick/kreinick1204/kreinick120400009/13107424-pair-of-running-shoes-white-background.jpg"
+    },
+    {
+      "id": "SHOE007",
+      "price": "115.59",
+      "name": " Nike ZenithGlide",
+      "url": "https://img.freepik.com/premium-photo/unbranded-purple-running-shoes-white-background_707345-492.jpg?w=740"
+    },
+    {
+      "id": "SHOE008",
+      "price": "65.29",
+      "name": " Nike StellarStrider",
+      "url": "https://images.unsplash.com/photo-1637437757614-6491c8e915b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+      "id": "SHOE009",
+      "price": "83.19",
+      "name": "Nike EclipseSole",
+      "url": "https://previews.123rf.com/images/photog2112/photog21120904/photog2112090400003/4706599-pair-of-running-shoes-on-a-white-background.jpg"
+    },
+    {
+      "id": "SHOE010",
+      "price": "65.79",
+      "name": "Nike InfinityRise",
+      "url": "https://www.westend61.de/images/0000078135pw/sports-shoes-on-white-background-MAEF02215.jpg"
+    },
+    {
+      "id": "SHOE011",
+      "price": "90.19",
+      "name": " Nike NovaPulse",
+      "url": "https://www.shutterstock.com/image-photo/sport-shoes-on-white-background-260nw-410498749.jpg"
+    },
+    {
+      "id": "SHOE012",
+      "price": "76.59",
+      "name": " Nike CosmicTrail",
+      "url": "https://images.pexels.com/photos/5710077/pexels-photo-5710077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "SHOE013",
+      "price": "82.59",
+      "name": "Nike AuroraBounce",
+      "url": "https://media.istockphoto.com/id/1308274455/photo/blue-sneakers-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=mNrdHQkWjTk8xxEn9Dst9C-ouTemFo-8dI5vpa1yfjk="
+    },
+    {
+      "id": "SHOE014",
+      "price": "89.59",
+      "name": "Nike FusionFlow",
+      "url": "https://c8.alamy.com/comp/J1J8B2/a-pair-of-childrens-sports-shoes-white-background-J1J8B2.jpg"
+    },
+    {
+      "id": "SHOE015",
+      "price": "82.99",
+      "name": "Nike NebulaDash",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUUg6kgc93RmFU53KmiYiwuhfCecjlteWEew&usqp=CAU"
+    },
+    {
+      "id": "SHOE016",
+      "price": "81.19",
+      "name": "Nike QuantumLeap",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK0RpHVHOwgYCiSU7SX0s3rK4ccI-8U8wAPQ&usqp=CAU"
+    },
+    {
+      "id": "SHOE017",
+      "price": "96.29",
+      "name": "Nike PinnacleStep",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuxC60JxtJBDeGO6b9oo-vfD0PPF8kQ6jHxg&usqp=CAU"
+    },
+    {
+      "id": "SHOE018",
+      "price": "76.09",
+      "name": "Nike GravityGlide",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeJOAqXkOrBFUtos2to8AnqkaZFu4vV7-zxg&usqp=CAU"
+    },
+    {
+      "id": "SHOE019",
+      "price": "81.09",
+      "name": "Nike SolsticeSprint",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9WMQYzWiQy7dZB25hwfO18R1IBijsMKFZKQzDUL6VOIdnIuIr8uiQ9QpcpxQ6NSnMhg&usqp=CAU"
+    },
+    {
+      "id": "SHOE020",
+      "price": "99.69",
+      "name": "Nike TitanTread",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfS_8UPHuphv00L3Ol2YI7u5XMS9RHZyb2HdfxIyxDntdvQYYZjKy4SEItV1_9OxTZxQ8&usqp=CAU"
+    },
+    {
+      "id": "SHOE021",
+      "price": "63.49",
+      "name": "Nike ZenMotion",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb9_eWh0c627E5LDfmIbdP0v0kT9G4aYPihQ&usqp=CAU"
+    },
+    {
+      "id": "SHOE022",
+      "price": "82.59",
+      "name": "Nike AeroShift",
+      "url": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2f35ced3-3e01-403d-b2f3-f3a357ff07a0/waffle-one-vintage-womens-shoes-qk5cz3.png"
+    },
+    {
+      "id": "SHOE023",
+      "price": "80.39",
+      "name": "Nike LunarDash",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT77CwgdXd8PEEnhxxo-NGkzh2dmdSB9vqwzw&usqp=CAU"
+    },
+    {
+      "id": "SHOE023",
+      "price": "80.09",
+      "name": "Nike InfinityElevate",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSvISbUjPPXJYnvTcC7flQZqJ3g1-BExXsIQ&usqp=CAU"
+    },
+    {
+      "id": "SHOE024",
+      "price": "95.29",
+      "name": "Nike ApexPace",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1S33rooEXF74FOcfKLrPLm7aRhUim9f-_MUW0ulqNNbmQucOStAMYNjNIMkbxMsuJzYU&usqp=CAU"
+    },
+    {
+      "id": "SHOE025",
+      "price": "81.39",
+      "name": "Nike SolarSurge",
+      "url": "https://thumbs.dreamstime.com/b/runing-sport-shoes-isolated-white-background-149412661.jpg"
+    },
+    {
+      "id": "SHOE026",
+      "price": "50.09",
+      "name": "Nike TerraThrive",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3HA-JSAQSG6u-3KlTcgdUF6nbkrCMVTiHJw&usqp=CAU"
+    },
+    {
+      "id": "SHOE027",
+      "price": "52.19",
+      "name": "Nike CelestialStomp",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUxhYCRGwbt7FOxqGQLNVjBw-NnMaLu_xgjQ&usqp=CAU"
+    },
+    {
+      "id": "SHOE028",
+      "price": "69.09",
+      "name": "Nike VaporStride",
+      "url": "https://backend.orbitvu.com/sites/default/files/image/sport-shoe-white-background.jpeg"
+    },
+    {
+      "id": "SHOE029",
+      "price": "80.59",
+      "name": "Nike AlphaGlide",
+      "url": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9ade626a-79c9-4544-8237-907bcc65fdba/air-force-1-low-retro-mens-shoes-53gMmt.png"
+    },
+    {
+      "id": "SHOE030",
+      "price": "68.19",
+      "name": "Nike Fusionflown",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC2kqpYDPGSwMipQtw8v0Ip4gVYLjEDXiGDQ&usqp=CAU"
+    }
+  ]
+}
