@@ -409,12 +409,7 @@ return currentfilter
       </div>
       <div className="flex items-center justify-between border-t border-gray-200 bg-white px-4 py-3 sm:px-6">
       <div className="flex flex-1 justify-between sm:hidden">
-      <button type="button" className="mt-5 text-white rounded-xl bg-[#1e40af] font-medium text-sm px-5 py-2 text-center mr-2 mb-2">
-     Previous 
-      </button>
-      <button type="button" className="mt-5 text-white rounded-xl bg-[#1e40af] font-medium text-sm px-5 py-2 text-center mr-2 mb-2">
-     Next 
-      </button>
+     
       
       </div>
 

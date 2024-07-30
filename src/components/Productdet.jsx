@@ -1,10 +1,9 @@
 import { useState } from 'react'
-import { StarIcon } from '@heroicons/react/20/solid'
 import { RadioGroup } from '@headlessui/react'
 import { useNavigate, useParams } from 'react-router-dom'
 import {  fetchProductByIdAsync, selectItemStatus, selectSingleItem } from '../features/Itemslice'
 import { useSelector, useDispatch } from 'react-redux';
-import { AddCartAsync, FetchcartByIdAsync } from '../features/Cartslice'
+import { AddCartAsync, FetchcartByIdAsync, SelectCart } from '../features/Cartslice'
 import { useEffect } from 'react'
 import { SelectIsLogin } from '../features/Authslice'
 function classNames(...classes) {
@@ -14,7 +13,7 @@ function classNames(...classes) {
 export const Productdet=()=> {
   const {itemId}=useParams()
   let navigate=useNavigate()
- 
+  let isLogin=useSelector(SelectIsLogin)
   const product = {
     sizes: [
       { name: 'XXS'},
@@ -29,20 +28,19 @@ export const Productdet=()=> {
   
   }
   let dispatch=useDispatch()
-  let isLogin=useSelector(SelectIsLogin)
-  console.log(isLogin.data.id)
+  let cartlength=useSelector(SelectCart)
+  console.log(cartlength) 
   useEffect(() => {
- //   dispatch(FetchallproductsAsync2())
         dispatch(fetchProductByIdAsync(itemId));
-       
+        dispatch(FetchcartByIdAsync(isLogin.data.id)) 
+
   }, [dispatch,itemId])      
   
-  
- // let ItemSelected=useSelector((state) => selectItemById(state, itemId))
+  const CartExist = cartlength.filter(item =>   itemId===item.productid);
+  console.log(CartExist.length)
   let ItemSelected=useSelector(selectSingleItem)
+
   let ItemStatus=useSelector(selectItemStatus)
- // console.log(ItemStatus)
- // console.log(ItemSelected)
 
 
 //  const [orderItem, setOrderItem] = useState(!ItemSelected ? "":ItemSelected[0])
@@ -165,6 +163,8 @@ const [Imageshow, setImageshow] = useState('');
           </div>
   
           <button
+       style={{ backgroundColor: CartExist.length !== 0 ? 'silver' : '' }}
+          disabled={CartExist.length!==0}
           onClick={addtocart}
             className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-[#1e40af] px-8 py-3 text-base font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
           >

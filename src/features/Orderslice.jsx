@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import { CreateOrder,  Fetchallorder,/* updateOrder */ } from "./Orderapi";
+import { CreateOrder,  Fetchallorder,FetchOrderById, updateOrderStatus } from "./Orderapi";
 //import axios from "axios";
 
 const initialState = {
@@ -12,12 +12,16 @@ export const FetchOrderAsync = createAsyncThunk('items/fetchorder', async () => 
     const response = await Fetchallorder()
     return response
 })
-export const UpdateOrderAsync = createAsyncThunk('items/updateorder', async () => {
-    const response = await updateOrder()
+export const FetchOrderByIdAsync = createAsyncThunk('items/fetchorderbyId', async (id) => {
+    const response = await FetchOrderById(id)
     return response
 })
 export const createOrderAsync = createAsyncThunk('items/createorder', async (obj) => {
     const response = await CreateOrder(obj)
+    return response
+})
+export const updateOrderStatusAsync = createAsyncThunk('items/updateorderstatus', async (obj) => {
+    const response = await updateOrderStatus(obj)
     return response
 })
 
@@ -56,15 +60,28 @@ const Orderslice = createSlice({
                 state.status = 'failed'
                 state.error = action.error.message
             })
-            .addCase(UpdateOrderAsync.pending, (state, action) => {
+            .addCase(FetchOrderByIdAsync.pending, (state, action) => {
                 state.status = 'loading'
                 
             })
-            .addCase(UpdateOrderAsync.fulfilled, (state, action) => {
+            .addCase(FetchOrderByIdAsync.fulfilled, (state, action) => {
                 state.status = 'succeeded'
-                state.category=action.payload
+                state.orders=action.payload
             })
-            .addCase(UpdateOrderAsync.rejected, (state, action) => {
+            .addCase(FetchOrderByIdAsync.rejected, (state, action) => {
+                state.status = 'failed'
+                state.error = action.error.message
+            }) 
+            .addCase(updateOrderStatusAsync.pending, (state, action) => {
+                state.status = 'loading'
+                
+            })
+            .addCase(updateOrderStatusAsync.fulfilled, (state, action) => {
+                state.status = 'succeeded'
+                let index=state.orders.findIndex(order=>order.id===action.payload.id)
+                state.orders[index]=action.payload
+            })
+            .addCase(updateOrderStatusAsync.rejected, (state, action) => {
                 state.status = 'failed'
                 state.error = action.error.message
             }) 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as Yup from "yup";
@@ -7,6 +7,7 @@ import { useDispatch } from 'react-redux';
 import { CreateUserAsync } from '../features/Authslice';
 export const Signup = () => {
   let dispatch=useDispatch()
+  let navigate=useNavigate()
   const schema = Yup.object({
     email: Yup.string().email("Email format incorrect").required("Email required"),
     password: Yup.string().required("Password required").min(6,"Password should be at least 6 length").max(12,'Password should be at max 12 length'),
@@ -16,8 +17,8 @@ export const Signup = () => {
       resolver: yupResolver(schema)
     });
   const onSubmit = (data) => {
-    console.log(data);
    dispatch(CreateUserAsync({email:data.email,password:data.password}))
+   navigate('/login')
   } 
   return (
     <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">

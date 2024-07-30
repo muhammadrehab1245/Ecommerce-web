@@ -22,14 +22,27 @@ export const Fetchallorder = () => {
   resolve(data)
 })
   };
-/*
-export const updateOrder = (obj) => {
-  let urlstr=Query(obj)
+export const FetchOrderById = (id) => {
+ // let urlstr=Query(obj)
  return new Promise(async(resolve)=>{
-  const response = await fetch(`http://localhost:3000/orders?${urlstr}`);
+  const response = await fetch(`http://localhost:3000/orders?userid=${id}`);
   const data=response.json()
-  
   resolve(data)
 })
-  }; */
+  };
+
+export const updateOrderStatus = (obj) => {
+
+    console.log(obj)
+    return new Promise(async(resolve)=>{
+      const response = await fetch(`http://localhost:3000/orders/${obj.id}`,{
+        method: 'PUT',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify(obj)
+    });
+     const data=response.json()
+     resolve(data)
+   })
+
+  }; 
 

@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 //import axios from "axios";
-import { FetchPrices, Fetchallproducts, Fetchallproducts2, Fetchcategories, Productslength, fetchProductById } from "./Itemsapi";
+import { FetchPrices, Fetchallproducts, Fetchcategories, Productslength, fetchProductById } from "./Itemsapi";
 
 const initialState = {
     items: [],

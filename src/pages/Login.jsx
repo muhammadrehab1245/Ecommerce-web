@@ -1,10 +1,10 @@
-import { yupResolver } from '@hookform/resolvers/yup';
 import React from 'react'
+import { yupResolver } from '@hookform/resolvers/yup';
+import { useForm } from 'react-hook-form';
+import * as Yup from "yup";
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, Navigate } from 'react-router-dom'
-import * as Yup from "yup";
 import { CheckUserAsync, SelectError, SelectIsLogin } from '../features/Authslice';
-import { useForm } from 'react-hook-form';
 export const Login = () => {
   let dispatch=useDispatch()
   let Loginerror=useSelector(SelectError)
@@ -17,10 +17,10 @@ export const Login = () => {
       resolver: yupResolver(schema) 
     });
   const onSubmit = (data) => {
-    console.log(data);
+
    dispatch(CheckUserAsync({email:data.email,password:data.password}))
   } 
-  console.log(Loginerror)
+
   return (
   <>
   {Loginstatus && <Navigate to='/' replace={true}/>}
@@ -90,8 +90,8 @@ export const Login = () => {
       </form>
 
       <p className="mt-10  text-center text-sm text-gray-500">
-        Already Have an Account?
-        <Link to="/login" className="font-semibold leading-6 ml-2 text-[#1e40af] hover:text-blue-500">
+        Not Have an Account?
+        <Link to="/signup" className="font-semibold leading-6 ml-2 text-[#1e40af] hover:bg-indigo-500">
           Login
         </Link>
       </p>

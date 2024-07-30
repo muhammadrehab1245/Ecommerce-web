@@ -2,13 +2,9 @@ export const AddCart = (obj) => {
   
    return new Promise(async(resolve)=>{
      const { colors, ...restobj } = obj;
-     const existingCartItem = await fetch(`http://localhost:3000/carts?userid=${obj.userid}&productid=${obj.productid}`);
-     if (existingCartItem) {
-      console.log('yes exist')
-     }
-     else{
-      console.log('added')
-      console.log(restobj)
+     const findingItem = await fetch(`http://localhost:3000/carts?userid=${obj.userid}&productid=${obj.productid}`);
+     const existingCartItem = await findingItem.json();
+     if (existingCartItem.length===0) {
     const response = await fetch(`http://localhost:3000/carts`,{
         method: 'POST',
         headers: { 'content-type': 'application/json' },
@@ -21,6 +17,19 @@ export const AddCart = (obj) => {
     
   })
     };
+
+    
+export const AvoidRepeatCartItem = (obj) => {
+   return new Promise(async(resolve)=>{
+     const findingItem = await fetch(`http://localhost:3000/carts?userid=${obj.userid}&productid=${obj.productid}`);
+     const data = await findingItem.json();
+     if (data.length!==0) {
+      resolve({data:data[0]})
+     }
+    // console.log(existingCartItem)
+    //  resolve({existingCartItem})
+  })
+    }; 
 
   export  const EmptyingCard=async (obj)=>{
      for (const items of obj) {

@@ -1,19 +1,41 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { EmptyingCardAsync, FetchcartAsync, SelectCart } from '../features/Cartslice'
+import {   SelectCart } from '../features/Cartslice'
 import { createOrderAsync, selectCurrentOrder } from '../features/Orderslice'
 import { Link, Navigate } from 'react-router-dom'
 import { nanoid } from '@reduxjs/toolkit'
+import { yupResolver } from '@hookform/resolvers/yup';
+import { useForm } from 'react-hook-form';
+import * as Yup from "yup";
+import { SelectIsLogin } from '../features/Authslice'
 export const Checkout = () => {
   let dispatch=useDispatch()
  
   let cartitem=useSelector(SelectCart)
-  console.log(cartitem.length)
   let currentorder=useSelector(selectCurrentOrder)
-  console.log(currentorder)
-  const ordering=()=>{
-    dispatch(createOrderAsync({id:nanoid(),cartitem}))
-  }
+  let isLogin=useSelector(SelectIsLogin)
+  const schema = Yup.object({
+    firstname: Yup.string().required("First Name required"),
+    lastname: Yup.string().required("Last Name required"),
+    streetaddress: Yup.string().required("Street Name required"),
+    city: Yup.string().required("City Name required"),
+    region: Yup.string().required("Region required"),
+  }).required();
+    const { register, handleSubmit, formState: { errors } } = useForm({
+      resolver: yupResolver(schema) 
+    });
+  const onSubmit = (data) => {
+console.log(data)
+    dispatch(createOrderAsync({id:nanoid(),userid:isLogin.data.id,status:'pending',cartitem,data}))
+  } 
+
+  console.log(currentorder && currentorder) 
+
+    const total = cartitem.reduce((acc, item) => {
+      return acc + item.ItemTotal;
+    }, 0);
+  
+
 
   return (
     <>
@@ -25,7 +47,7 @@ export const Checkout = () => {
       ) }
     <div className="grid grid-cols-1 px-20 text-white gap-x-12 gap-y-10 lg:grid-cols-4">
         <div className='text-white col-span-3'>
-    <form>
+    <form onSubmit={handleSubmit(onSubmit)} noValidate>
     <div className="space-y-12">
      
 
@@ -34,78 +56,45 @@ export const Checkout = () => {
 
         <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
           <div className="sm:col-span-3">
-            <label htmlFor="first-name" className="block text-sm font-medium leading-6">
+            <label htmlFor="firstname" className="block text-sm font-medium leading-6">
               First name
             </label>
             <div className="mt-2">
               <input
                 type="text"
-                name="first-name"
-                id="first-name"
-                autoComplete="given-name"
+                name="firstname"
+                id="firstname"
+                {...register("firstname")} 
                 className="block w-full rounded-md border-0 py-1.5 shadow-sm ring-1 ring-inset text-black ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               />
             </div>
           </div>
 
           <div className="sm:col-span-3">
-            <label htmlFor="last-name" className="block text-sm font-medium leading-6 ">
+            <label htmlFor="lastname" className="block text-sm font-medium leading-6 ">
               Last name
             </label>
             <div className="mt-2">
               <input
                 type="text"
-                name="last-name"
-                id="last-name"
-                autoComplete="family-name"
+                name="lastname"
+                id="lastname"
+                {...register("lastname")} 
                 className="block w-full text-black rounded-md border-0 py-1.5  shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               />
             </div>
           </div>
 
-          <div className="sm:col-span-4">
-            <label htmlFor="email" className="block text-sm font-medium leading-6 ">
-              Email address
-            </label>
-            <div className="mt-2">
-              <input
-                id="email"
-                name="email"
-                type="email"
-                autoComplete="email"
-                className="block text-black w-full rounded-md border-0 py-1.5  shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-              />
-            </div>
-          </div>
-
-          <div className="sm:col-span-3">
-            <label htmlFor="country" className="block text-sm font-medium leading-6 ">
-              Country
-            </label>
-            <div className="mt-2">
-              <select
-                id="country"
-                name="country"
-                autoComplete="country-name"
-                className="block text-black w-full rounded-md border-0 py-1.5  shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6"
-              >
-                <option>United States</option>
-                <option>Canada</option>
-                <option>Mexico</option>
-              </select>
-            </div>
-          </div>
-
           <div className="col-span-full">
-            <label htmlFor="street-address" className="block text-sm font-medium leading-6">
+            <label htmlFor="streetaddress" className="block text-sm font-medium leading-6">
               Street address
             </label>
             <div className="mt-2">
               <input
                 type="text"
-                name="street-address"
-                id="street-address"
-                autoComplete="street-address"
+                name="streetaddress"
+                id="streetaddress"
+                {...register("streetaddress")} 
                 className="block text-black w-full rounded-md border-0 py-1.5  shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               />
             </div>
@@ -120,7 +109,8 @@ export const Checkout = () => {
                 type="text"
                 name="city"
                 id="city"
-                autoComplete="address-level2"
+                {...register("city")} 
+
                 className="block text-black w-full rounded-md border-0 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               />
             </div>
@@ -135,22 +125,22 @@ export const Checkout = () => {
                 type="text"
                 name="region"
                 id="region"
-                autoComplete="address-level1"
+                {...register("region")} 
                 className="block text-black w-full rounded-md border-0 py-1.5  shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               />
             </div>
           </div>
 
           <div className="sm:col-span-2">
-            <label htmlFor="postal-code" className="block text-sm font-medium leading-6 ">
+            <label htmlFor="postalcode" className="block text-sm font-medium leading-6 ">
               ZIP / Postal code
             </label>
             <div className="mt-2">
               <input
                 type="text"
-                name="postal-code"
-                id="postal-code"
-                autoComplete="postal-code"
+                name="postalcode"
+                id="postalcode"
+                {...register("postalcode")} 
                 className="block text-black w-full rounded-md border-0 py-1.5  shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               />
             </div>
@@ -169,7 +159,9 @@ export const Checkout = () => {
                 <input
                   id="cash"
                   name="cash"
+                  value='cash'
                   type="radio"
+                  {...register("paymenttype")}
                   className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
                 />
                 <label htmlFor="cash" className="block text-sm font-medium leading-6 ">
@@ -180,10 +172,12 @@ export const Checkout = () => {
                 <input
                   id="cardpayment"
                   name="cardpayment"
+                  value='cardpayment'
                   type="radio"
+                  {...register("paymenttype")}
                   className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
                 />
-                <label htmlFor="push-nothing" className="block text-sm font-medium leading-6">
+                <label htmlFor="cardpayment" className="block text-sm font-medium leading-6">
                   Card Payment
                 </label>
               </div>
@@ -193,22 +187,14 @@ export const Checkout = () => {
       </div>
     </div>
 
-    <div className="mt-6 flex items-center justify-end gap-x-6">
-      <button type="button" className="text-sm font-semibold leading-6 text-gray-900">
-        Cancel
-      </button>
-      <button
-        type="submit"
-        className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-      >
-        Save
-      </button>
-    </div>
+    <button type='submit'   className="flex items-center justify-center rounded-md border border-transparent bg-[#1e40af] px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-500">
+                        Checkout
+       
+                      </button>
   </form>
   </div>
 
   <div className="mx-auto max-w-7xl  px-2 sm:px-6 lg:px-8">
-    <h1 className='text-5xl'>Cart</h1>
                     <div className="mt-8 ">
                       <div className="flow-root">
                         <ul role="list" className=" divide-y divide-gray-200">
@@ -232,23 +218,7 @@ export const Checkout = () => {
                                   </div>
                                   <p className="mt-1 text-sm text-gray-500">{item.selectedColor}</p>
                                 </div>
-                                <div className="flex flex-col mb-6  flex-1  text-sm">
-                              <div>
-                                <label htmlFor="cars">Quantity</label>
-
-<select value={item.defaultquantity} className='ml-4 w-10' name="qty" id="qty">
-  <option value="1">1</option>
-  <option value="2">2</option>
-</select></div>
-                                  <div className="flex">
-                                    <button
-                                      type="button"
-                                      className='mt-2'
-                                    >
-                                      Remove
-                                    </button>
-                                  </div>
-                                </div>
+                               
                               </div>
                             </li>
                           ))}
@@ -260,22 +230,13 @@ export const Checkout = () => {
                   <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
                     <div className="flex justify-between text-base font-medium">
                       <p>Subtotal</p>
-                      <p>$262.00</p>
+                      <p>{total.toFixed(2)}</p>
                     </div>
         
-                    <div className="mt-6">
-                      <button onClick={ordering}>
-                      <Link
-                //        to='/products'
-                        className="flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
-                      >
-                        Checkout
-                      </Link>
-                      </button>
-                    </div>
+                
                     <div className="mt-6 flex justify-center text-center text-sm text-gray-500">
                       <p>
-                        or
+          
                         <button
                           type="button"
                           className="font-medium ml-2 text-indigo-600 hover:text-indigo-500"

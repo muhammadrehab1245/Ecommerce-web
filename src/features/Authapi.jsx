@@ -17,15 +17,14 @@ export const CheckUser = (obj) => {
 
      if (data.length) {
         if(data[0].password!==obj.password){
-            console.log("Wrong Credentials")
             reject({message:"Wrong Credentials"})
         }
         else{
-            console.log("Done")
+
             resolve({data:data[0]})
         }   }
         else{
-            console.log("not found")
+
             reject({message:"User not found"})
         }
    })

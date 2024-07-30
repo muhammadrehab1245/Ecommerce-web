@@ -15,14 +15,13 @@ import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { SelectIsLogin } from './features/Authslice';
 import { FetchcartByIdAsync } from './features/Cartslice';
+import { OrderList } from './components/OrderList';
+import { IsAdminorNot } from './components/IsAdminorNot';
 function App() {
   let dispatch=useDispatch()
   let isLogin=useSelector(SelectIsLogin)
-  console.log(isLogin)
   useEffect(() => {
-    //  dispatch(FetchcartAsync())
     if (isLogin) {
-      console.log(isLogin.data.id)
       dispatch(FetchcartByIdAsync(isLogin.data.id))
     }
   
@@ -51,6 +50,7 @@ function App() {
           <Route path="/cart" element={<Protect><Cart /></Protect>} />
           <Route path="/checkout" element={<Protect><Checkout /></Protect>} />
           <Route path="/propage/:itemId" element={<Protect><Productdet /></Protect>} />
+          <Route path="/orders" element={<Protect><IsAdminorNot /></Protect>} />
           <Route path="/orderstatus/:orderid" element={<Protect><Orderstatus /></Protect>} />
           <Route path="*" element={<PageNot />} />
         </Routes>

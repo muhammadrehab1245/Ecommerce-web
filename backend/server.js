@@ -10,6 +10,9 @@ const port = 5000
 
 
 app.use('/e-com/user', require('./route/user'));
+app.use('/e-com/items', require('./route/products'));
+app.use('/e-com/items', require('./route/category'));
+app.use('/e-com/items', require('./route/prices'));
 
 // Using the '/foodapp/items' route for item-related endpoints
 //app.use('/foodapp/items', require('./route/itementry'));

@@ -8,19 +8,11 @@ export const Fetchallproducts = (obj) => {
   resolve(data)
 })
   };
-export const Fetchallproducts2 = () => {
-  //let urlstr=Query(obj)
- return new Promise(async(resolve)=>{
-  const response = await fetch(`http://localhost:3000/items`);
-  const data=response.json()
-  resolve(data)
-})
-  };
 
   
 export const fetchProductById = (id) => {
  return new Promise(async(resolve)=>{
-  const response = await fetch(`http://localhost:3000/items?id=${id}`);
+  const response = await fetch(`http://localhost:3000/items?productid=${id}`);
   const data=response.json()
   resolve(data)
 })

@@ -4,6 +4,8 @@ import { AddCart, DeleteCart, EmptyingCard, FetchCart, FetchcartById, UpdateCart
 
 const initialState = {
     cart: [],
+    checkadded:null,
+  //  msg:null,
     status: 'idle', //'idle' | 'loading' | 'succeeded' | 'failed'
     error: null
 }
@@ -18,8 +20,13 @@ export const FetchcartByIdAsync = createAsyncThunk('items/fetchCartbyId', async 
 })
 export const AddCartAsync = createAsyncThunk('items/AddCart', async (obj) => {
     const response = await AddCart(obj)
-    return response
+    return response 
 })
+
+export const AvoidRepeatCartItemAsync = createAsyncThunk('items/AvoidRepeat', async (obj) => {
+    const response = await AvoidRepeatCartItem(obj)
+    return response.data
+}) 
 
 export const DeleteCartAsync = createAsyncThunk('items/deleteCart', async (id) => {
     const response = await DeleteCart(id)
@@ -55,9 +62,24 @@ const Cartslice = createSlice({
             state.status = 'failed'
             state.error = action.error.message
         }) */
-        .addCase(FetchcartByIdAsync.pending, (state, action) => {
+        .addCase(AvoidRepeatCartItemAsync.pending, (state, action) => {
             state.status = 'loading'
             
+        })
+        .addCase(AvoidRepeatCartItemAsync.fulfilled, (state, action) => {
+            state.status = 'succeeded'
+            console.log(action.payload)
+            state.checkadded=action.payload
+       // console.log(action.payload)
+      //  state.msg=action.payload
+        })
+        .addCase(AvoidRepeatCartItemAsync.rejected, (state, action) => {
+            state.status = 'failed'
+            state.error = action.error.message
+        })  
+        .addCase(FetchcartByIdAsync.pending, (state, action) => {
+            state.status = 'loading'
+          
         })
         .addCase(FetchcartByIdAsync.fulfilled, (state, action) => {
             state.status = 'succeeded'
@@ -122,7 +144,8 @@ const Cartslice = createSlice({
     }
 })
 
-//export const { Itemadded, reactionAdded } = postsSlice.actions
 
 export const SelectCart = (state) => state.carts.cart;
+//export const SelectCartError = (state) => state.carts.error;
+export const SelectCartExist = (state) => state.carts.checkadded;
 export default Cartslice.reducer

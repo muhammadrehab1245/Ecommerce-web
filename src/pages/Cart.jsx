@@ -32,7 +32,10 @@ export const Cart = () => {
 
   if (cartitem.length===0) {
     return (
-      <h1 className='text-3xl text-center'>Cart is empty</h1>
+      <div className="flex justify-center items-center h-full flex-col">
+      <img src='./emptycart.png' alt="Cartempty" className="w-64 h-64" />
+      <h1 className="mt-4">Cart is empty!!</h1>
+    </div>
     )
   }
   return (
