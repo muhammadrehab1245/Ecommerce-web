@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+const mongoosePaginate = require('mongoose-paginate-v2');
 const colorSchema = new mongoose.Schema({
   url: {
     type: String,
@@ -40,6 +40,8 @@ const productSchema = new mongoose.Schema({
   },
   colors: [colorSchema]
 });
+
+productSchema.plugin(mongoosePaginate);
 
 const Product = mongoose.model('Product', productSchema);
 

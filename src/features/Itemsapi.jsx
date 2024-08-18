@@ -2,6 +2,7 @@ import { Constant } from "../components/Constant";
 
 export const Fetchallproducts = (obj) => {
   let urlstr=Query(obj)
+  console.log(urlstr)
  return new Promise(async(resolve)=>{
   const response = await fetch(`http://localhost:3000/items?_page=${obj.page}&_limit=${Constant}${urlstr}`);
   const data=response.json()
@@ -45,7 +46,9 @@ export const Productslength = (obj) => {
   };
 
 let Query=(obj)=>{
+  console.log(obj)
   let filtering=obj.filters, str='', sortfilter=obj.sortOptions,sortcriteria='price'
+  console.log(sortfilter)
   for(const key in filtering){
     if(filtering[key].length!==0){
       let appliedfilters=filtering[key]
