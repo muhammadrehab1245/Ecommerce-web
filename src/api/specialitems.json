@@ -1979,7 +1979,36 @@
       "checked": false
     }
   ],
-  "carts": [],
+  "carts": [
+    {
+      "name": "Nike Stealth Mode",
+      "category": "jacket",
+      "productid": "B1C2D3E4",
+      "defaultquantity": 5,
+      "range": "50-65",
+      "price": 54.2,
+      "Imageshow": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e7052b5e-b2d0-4c29-b3e2-42387d5ec1d7/sportswear-windrunner-mens-hooded-jacket-5hK13x.png",
+      "selectedColor": "red",
+      "selectedSize": "S",
+      "ItemTotal": 54.2,
+      "userid": 1,
+      "id": 1
+    },
+    {
+      "name": "Nike Authentics",
+      "category": "jacket",
+      "productid": "T7S8R9Q0",
+      "range": "50-65",
+      "price": 61.93,
+      "defaultquantity": 3,
+      "Imageshow": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8bad8988-a499-41bf-9315-b5371664a53e/sportswear-authentics-mens-coaches-jacket-RRQsGg.png",
+      "selectedColor": "silver",
+      "selectedSize": "M",
+      "ItemTotal": 61.93,
+      "userid": 1,
+      "id": 2
+    }
+  ],
   "orders": [
     {
       "id": "kbDkIAU3DkJO85EDNQQhO",

@@ -25,20 +25,25 @@ exports.fetchProductById = async (req, res) => {
 exports.fetchAllProducts = async (req, res) => {
   try {
     const { page, limit, category, range, _sort, _order } = req.query;
-
+    console.log(page, limit, category, range, _sort, _order)
     // Construct the query object
     let itemsquery = {};
 
     // Category filtering
     if (category) {
-      itemsquery.category = category;
+      itemsquery.category = Array.isArray(category)? { $in: category } : category;
     }
 
     // Range filtering (price range)
     if (range) {
-      const [min,max] = range.split('-').map(Number);
-      // Ensure min and max are in correct order
-      itemsquery.price = { $gte: min, $lte: max };
+      // Handle range as an array of ranges
+      const ranges = Array.isArray(range) ? range : [range];
+      itemsquery.price = {
+        $or: ranges.map(r => {
+          const [min, max] = r.split('-').map(Number);
+          return { $gte: min, $lte: max };
+        })
+      };
     }
 
     // Pagination and sorting options

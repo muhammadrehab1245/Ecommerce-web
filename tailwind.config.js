@@ -7,9 +7,9 @@ export default {
   ],
   theme: {
     extend: {
-      colors:{
-        goldenrod: colors.goldenrod
-    }
+      screens: {
+        'xs': '250px',  // Custom breakpoint for screens less than 640px
+      },
     },
     
   },
