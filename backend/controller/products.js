@@ -25,50 +25,56 @@ exports.fetchProductById = async (req, res) => {
 exports.fetchAllProducts = async (req, res) => {
   try {
     const { page, limit, category, range, _sort, _order } = req.query;
-    console.log(page, limit, category, range, _sort, _order)
-    // Construct the query object
+    console.log(page, limit, category, range, _sort, _order);
+    
+    // Query object ko construct karo
     let itemsquery = {};
 
     // Category filtering
     if (category) {
-      itemsquery.category = Array.isArray(category)? { $in: category } : category;
+      itemsquery.category = Array.isArray(category) ? { $in: category } : category;
     }
 
     // Range filtering (price range)
     if (range) {
-      // Handle range as an array of ranges
-      const ranges = Array.isArray(range) ? range : [range];
-      itemsquery.price = {
-        $or: ranges.map(r => {
-          const [min, max] = r.split('-').map(Number);
-          return { $gte: min, $lte: max };
-        })
-      };
+      if (Array.isArray(range)) {
+        // Agar range array hai
+        itemsquery.price = {
+          $gte: Math.min(...range.map(r => parseInt(r.split('-')[0]))),
+          $lte: Math.max(...range.map(r => parseInt(r.split('-')[1])))
+        };
+      } else {
+        // Agar range string hai
+        const [min, max] = range.split('-').map(Number);
+        itemsquery.price = { $gte: min, $lte: max };
+      }
     }
 
-    // Pagination and sorting options
+    // Pagination options
     const options = {
       page: parseInt(page),
       limit: parseInt(limit),
-      sort: {} // Correctly use sort key
+      sort: {} 
     };
-    
+
+    // Sorting logic
     if (_sort && _order) {
-      options.sort[_sort] = _order === 'asc' ? 1 : -1; 
+      options.sort[_sort] = _order === 'asc' ? 1 : -1;
     }
-    
+
     console.log(options);
 
-    // Retrieve data with mongoose's paginate method
+    // Data ko paginate karo
     const data = await Product.paginate(itemsquery, options);
 
-    // Return the response
+    // Response return karo
     res.json(data);
   } catch (error) {
     console.error('Error fetching data:', error);
     res.status(500).json({ error: 'Internal Server Error' });
   }
 };
+
 
 
 // exports.addProducts=async () => {
