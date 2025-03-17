@@ -86,3 +86,12 @@ exports.fetchAllProducts = async (req, res) => {
 //       console.error('Error adding products:', error);
 //     }
 //   };
+
+exports.Productslength = async (req, res) => {
+  try {
+    const products = await Product.find({});
+    res.json({productlen:products.length})
+  } catch (error) {
+    res.status(500).send('Internal Error Occured')
+  }
+}
