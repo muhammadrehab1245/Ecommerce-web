@@ -6,7 +6,7 @@ const { Schema } = mongoose;
 
 const cartSchema = new Schema({
      // Reference to the 'user' collection using ObjectId
-  user:{
+  userId:{
     type: Schema.Types.ObjectId,
     ref: 'user'
 
