@@ -62,6 +62,20 @@ exports.AddCart = async (req, res) => {
     }
   };
 
+  exports.updateCart = async (req, res) => {
+    const { _id,quantity } = req.body;
+    try {
+      await Cartitems.updateOne(
+        { _id },  // Matching the document by its _id
+        { $set: { quantity: quantity } }                    // Update the quantity field
+      );; 
+      res.status(200).json('Cart Item Updated Successfully');
+    } catch (error) {
+      console.error('Error adding item to cart:', error);
+      res.status(500).json({ message: 'Internal Server Error' });
+    }
+  };
+
   exports.EmptyingCart = async (req, res) => {
     // const { id } = req.body;
     

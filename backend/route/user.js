@@ -14,8 +14,4 @@ const { createUser, loginUser } = require('../controller/user');
         body('password','Password should not be empty').exists()
     ],loginUser)
 
-
-
-
-
 module.exports = router;
