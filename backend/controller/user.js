@@ -33,7 +33,7 @@ exports.createUser = async (req, res) => {
     // Create a new user
     user = await SignupModel.create({
       username: req.body.username,
-      // email: req.body.email,
+      isAdmin:false,
       password: hash, // Secure the password using hashing
     });
 

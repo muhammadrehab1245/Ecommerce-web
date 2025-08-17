@@ -14,6 +14,8 @@ app.use('/e-com/items', require('./route/products'));
 app.use('/e-com/items', require('./route/category'));
 app.use('/e-com/items', require('./route/prices'));
 app.use('/e-com/items', require('./route/cartitem'));
+app.use('/e-com/items', require('./route/order'));
+
 // Using the '/foodapp/items' route for item-related endpoints
 //app.use('/foodapp/items', require('./route/itementry'));
 app.listen(port, () => {

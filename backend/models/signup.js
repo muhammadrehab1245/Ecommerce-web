@@ -11,6 +11,10 @@ const SignupsSchema = new Schema({
         type: String,
         required:true, 
       },
+         isAdmin: {
+        type: Boolean,
+        required:true, 
+      },
 });
 const SignupModel = mongoose.model('signup', SignupsSchema);
 module.exports = SignupModel;  

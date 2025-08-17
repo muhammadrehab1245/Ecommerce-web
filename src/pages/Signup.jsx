@@ -17,8 +17,8 @@ export const Signup = () => {
       resolver: yupResolver(schema)
     });
   const onSubmit = (data) => {
-   dispatch(CreateUserAsync({email:data.email,password:data.password}))
-   navigate('/login')
+   dispatch(CreateUserAsync({username:data.email,password:data.password}))
+   navigate('/')
   } 
   return (
     <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">

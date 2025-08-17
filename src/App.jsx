@@ -13,19 +13,20 @@ import { Orderstatus } from './pages/Orderstatus';
 import { Protect } from './components/Protect';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { SelectIsLogin } from './features/Authslice';
+import { SelectAuth, SelectIsLogin } from './features/Authslice';
 import { FetchcartByIdAsync } from './features/Cartslice';
 import { OrderList } from './components/OrderList';
 import { IsAdminorNot } from './components/IsAdminorNot';
 function App() {
   let dispatch=useDispatch()
   let isLogin=useSelector(SelectIsLogin)
-  useEffect(() => {
-    if (isLogin) {
-      dispatch(FetchcartByIdAsync(isLogin.data.id))
-    }
+   let hasAuth=useSelector(SelectAuth)
+  // useEffect(() => {
+  //   if (hasAuth) {
+  //     // dispatch(FetchcartByIdAsync(isLogin.data.id))
+  //   }
   
-    }, [isLogin])
+  //   }, [hasAuth])
 
   return (
     <>

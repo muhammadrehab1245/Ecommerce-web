@@ -6,5 +6,5 @@ const {   fetchProducts, fetchProductById, fetchAllProducts, Productslength,AddP
     router.get('/fetchproducts/:id',fetchProductById)
     router.get('/fetchallproducts',fetchAllProducts)
     router.get('/fetchproductslength',Productslength)
-    router.post('/addproducts',AddProducts)
+    // router.post('/addproducts',AddProducts)
 module.exports = router;

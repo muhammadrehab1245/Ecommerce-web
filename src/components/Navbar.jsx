@@ -23,12 +23,12 @@ export const Navbar = () => {
     { name: isLogin?.data?.isAdmin?'Order':'Your Order', href: '/orders'},
   ]
 
-  useEffect(() => {
-  if (isLogin) {
-    dispatch(FetchcartByIdAsync(isLogin.data.id))
-  }
+  // useEffect(() => {
+  // if (isLogin) {
+  //   dispatch(FetchcartByIdAsync(isLogin.data.id))
+  // }
 
-  }, [isLogin]) 
+  // }, [isLogin]) 
   let cartlength=useSelector(SelectCart)
   const Loggingout=()=>{
     dispatch(LogOut())

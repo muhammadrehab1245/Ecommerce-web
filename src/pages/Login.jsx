@@ -4,11 +4,12 @@ import { useForm } from 'react-hook-form';
 import * as Yup from "yup";
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, Navigate } from 'react-router-dom'
-import { CheckUserAsync, SelectError, SelectIsLogin } from '../features/Authslice';
+import { CheckUserAsync, LoginAsync, SelectAuth, SelectError, SelectIsLogin } from '../features/Authslice';
 export const Login = () => {
   let dispatch=useDispatch()
   let Loginerror=useSelector(SelectError)
   let Loginstatus=useSelector(SelectIsLogin)
+  let auth=useSelector(SelectAuth)
   const schema = Yup.object({
     email: Yup.string().email("Email format incorrect").required("Email required"),
     password: Yup.string().required("Password required")
@@ -18,12 +19,12 @@ export const Login = () => {
     });
   const onSubmit = (data) => {
 
-   dispatch(CheckUserAsync({email:data.email,password:data.password}))
+   dispatch(LoginAsync({username:data.email,password:data.password}))
   } 
 
   return (
   <>
-  {Loginstatus && <Navigate to='/' replace={true}/>}
+  {auth && <Navigate to='/' replace={true}/>}
     <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
     <div className="sm:mx-auto sm:w-full sm:max-w-sm">
       <img

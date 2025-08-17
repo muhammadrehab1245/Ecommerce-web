@@ -1,10 +1,11 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import { CheckUser, CreateUser } from "./Authapi";
+import { CheckUser, CreateUser, Login } from "./Authapi";
 //import axios from "axios";
 
 const initialState = {
     users: [],
     isLogin:null,
+    auth:localStorage.getItem('auth')?JSON.parse(localStorage.getItem('auth')):null,
     status: 'idle', //'idle' | 'loading' | 'succeeded' | 'failed'
     error: null
 }
@@ -16,6 +17,10 @@ export const CreateUserAsync = createAsyncThunk('items/createuser', async (obj) 
 }) 
 export const CheckUserAsync = createAsyncThunk('items/checkUser', async (obj) => {
     const response = await CheckUser(obj)
+    return response
+})
+export const LoginAsync = createAsyncThunk('auth/login', async (obj) => {
+    const response = await Login(obj)
     return response
 })
 /*
@@ -40,6 +45,10 @@ const Authslice = createSlice({
     reducers: {
         LogOut:(state)=>{
             state.isLogin=null
+        },
+        removeAuth:(state,action)=>{
+            localStorage.removeItem('auth')
+            state.auth=null
         }
     },
     extraReducers(builder) {
@@ -50,8 +59,8 @@ const Authslice = createSlice({
             })
             .addCase(CreateUserAsync.fulfilled, (state, action) => {
                 state.status = 'succeeded'
-               // state.users.push(action.payload)
-               state.isLogin=action.payload
+              localStorage.setItem('auth',JSON.stringify(action.payload.data))
+                state.auth=action.payload.data
             })
             .addCase(CreateUserAsync.rejected, (state, action) => {
                 state.status = 'failed'
@@ -70,6 +79,19 @@ const Authslice = createSlice({
                 state.status = 'failed'
                 state.error = action.error.message
             })
+             .addCase(LoginAsync.pending, (state, action) => {
+                state.status = 'loading'
+                
+            })
+            .addCase(LoginAsync.fulfilled, (state, action) => {
+                state.status = 'succeeded'
+                localStorage.setItem('auth',JSON.stringify(action.payload.data))
+                state.auth=action.payload.data
+            })
+            .addCase(LoginAsync.rejected, (state, action) => {
+                state.status = 'failed'
+                state.error = action.error.message
+            })
             
     }
 })
@@ -78,6 +100,7 @@ const Authslice = createSlice({
 
 export const SelectUser = (state) => state.users.users;
 export const SelectIsLogin = (state) => state.users.isLogin;
+export const SelectAuth = (state) => state.users.auth;
 export const SelectError = (state) => state.users.error;
 export const { LogOut} = Authslice.actions
 export default Authslice.reducer

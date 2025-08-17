@@ -1,15 +1,24 @@
+import axios from "axios";
+
 export const CreateUser = (obj) => {
-    return new Promise(async(resolve)=>{
-     const response = await fetch(`http://localhost:3000/users`,{
-         method: 'POST',
-         headers: { 'content-type': 'application/json' },
-         body: JSON.stringify(obj)
-     });
-     const data=response.json()
-     
-     resolve({data})
-   })
-     };
+  return new Promise(async (resolve, reject) => {
+    try {
+      const response = await axios.post(
+        "http://localhost:5000/e-com/user/createuser",
+        obj,
+        {
+          headers: { "Content-Type": "application/json" },
+        }
+      );
+
+      const data = response.data;
+      resolve({ data });
+    } catch (err) {
+      reject({ error: err.message });
+    }
+  });
+};
+
 export const CheckUser = (obj) => {
     return new Promise(async(resolve,reject)=>{
      const response = await fetch(`http://localhost:3000/users/?email=${obj.email}`)
@@ -29,3 +38,24 @@ export const CheckUser = (obj) => {
         }
    })
      };
+
+export const Login = (obj) => {
+  return new Promise(async (resolve, reject) => {
+    try {
+      const response = await axios.post(
+        "http://localhost:5000/e-com/user/loginuser",
+        obj
+      );
+
+      const data = response.data;
+
+      if (data.success) {
+        resolve({ data });
+      } else {
+        reject({ error: data.error });
+      }
+    } catch (err) {
+      reject({ error: err.message });
+    }
+  });
+};
