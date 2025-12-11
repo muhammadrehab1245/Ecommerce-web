@@ -64,11 +64,11 @@ exports.fetchAllProducts = async (req, res) => {
 
     console.log(options);
 
-    // Data ko paginate karo
+    // Data  paginate 
     const data = await Product.paginate(itemsquery, options);
 
     // Response return karo
-    res.json(data);
+    res.status(200).json(data);
   } catch (error) {
     console.error('Error fetching data:', error);
     res.status(500).json({ error: 'Internal Server Error' });

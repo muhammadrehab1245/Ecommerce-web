@@ -20,7 +20,7 @@ import { IsAdminorNot } from './components/IsAdminorNot';
 function App() {
   let dispatch=useDispatch()
   let isLogin=useSelector(SelectIsLogin)
-   let hasAuth=useSelector(SelectAuth)
+   let isAuth=useSelector(SelectAuth)
   // useEffect(() => {
   //   if (hasAuth) {
   //     // dispatch(FetchcartByIdAsync(isLogin.data.id))

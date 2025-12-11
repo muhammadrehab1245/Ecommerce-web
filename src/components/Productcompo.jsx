@@ -9,13 +9,15 @@ import { useSelector, useDispatch } from 'react-redux';
 import { FetchPricesAsync, FetchallproductsAsync, Fetchcategoriesasync, ProductslengthAsync, selectAllItems, selectCategory, selectItemlength, selectprice } from '../features/Itemslice'
 import { Constant } from './Constant'
 import { Link } from 'react-router-dom'
+import { SelectAuth } from '../features/Authslice'
+import { FetchcartByIdAsync } from '../features/Cartslice'
  
   function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
   }
 export const Productcompo = () => {
   let dispatch=useDispatch()
-
+let isAuth=useSelector(SelectAuth)
   const [filters, setfilters] = useState({category:[],range:[]})
   const [page, setpage] = useState(1)
   const [sortOptions, setSortOptions] = useState( [
@@ -24,10 +26,14 @@ export const Productcompo = () => {
     { name: "High to Low",order:"desc" , current: false },
   ])
 
+
+  useEffect(() => {
+  dispatch(FetchcartByIdAsync(isAuth.userId)) 
+  }, [])
   useEffect(() => {
     dispatch(Fetchcategoriesasync())
     dispatch(FetchPricesAsync())
-    dispatch(ProductslengthAsync({filters,page,sortOptions}))
+    // dispatch(ProductslengthAsync({filters,page,sortOptions}))
   }, [filters,page,sortOptions])
   let prices=useSelector(selectprice)
   let categories=useSelector(selectCategory)
@@ -360,7 +366,7 @@ return currentfilter
 
         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
         {
-          products.map((product) => (
+          products?.map((product) => (
             <div key={product.productid} className="group relative">
               <div className="aspect-h-1 aspect-w-1 w-full ove
               rflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
@@ -388,12 +394,12 @@ return currentfilter
 }
                  
                   <div className='grid justify-items-center'>
-
-                  <button  type="button" className="mt-10 relative  bottom-6 cursor-pointer  text-white rounded-md bg-[#1e40af] font-medium text-sm px-5 py-2 text-center mr-2 mb-2">
+{!isAuth.isAdmin &&        <button  type="button" className="mt-10 relative  bottom-6 cursor-pointer  text-white rounded-md bg-[#1e40af] font-medium text-sm px-5 py-2 text-center mr-2 mb-2">
                   <Link  to={`/propage/${product.productid}`} >
                     Order Product
                    </Link>
-                    </button>
+                    </button>}
+           
                   
                   </div>
                   </div>

@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import { AddCart, DeleteCart, EmptyingCard, FetchCart, FetchcartById, UpdateCart } from "./Cartapi";
+import { AddCart, DeleteCart, EmptyCart, FetchCart, FetchcartById, UpdateCart } from "./Cartapi";
 //import axios from "axios";
 
 const initialState = {
@@ -16,6 +16,7 @@ export const FetchcartAsync = createAsyncThunk('items/fetchCart', async () => {
 })
 export const FetchcartByIdAsync = createAsyncThunk('items/fetchCartbyId', async (userid) => {
     const response = await FetchcartById(userid)
+    console.log(response,'by id')
     return response
 })
 export const AddCartAsync = createAsyncThunk('items/AddCart', async (obj) => {
@@ -38,7 +39,7 @@ export const UpdateCartAsync = createAsyncThunk('items/UpdateCart', async (obj) 
     return response
 })
 export const EmptyingCardAsync = createAsyncThunk('items/EmptyCart', async (obj) => {
-    const response = await EmptyingCard(obj)
+    const response = await EmptyCart()
     return response
 })
 
@@ -83,6 +84,7 @@ const Cartslice = createSlice({
         })
         .addCase(FetchcartByIdAsync.fulfilled, (state, action) => {
             state.status = 'succeeded'
+            console.log(action.payload,'fetch by id')
             state.cart=action.payload
         })
         .addCase(FetchcartByIdAsync.rejected, (state, action) => {

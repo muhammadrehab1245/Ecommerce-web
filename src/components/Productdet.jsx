@@ -5,7 +5,7 @@ import {  fetchProductByIdAsync, selectItemStatus, selectSingleItem } from '../f
 import { useSelector, useDispatch } from 'react-redux';
 import { AddCartAsync, FetchcartByIdAsync, SelectCart } from '../features/Cartslice'
 import { useEffect } from 'react'
-import { SelectIsLogin } from '../features/Authslice'
+import { SelectAuth, SelectIsLogin } from '../features/Authslice'
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
@@ -14,6 +14,7 @@ export const Productdet=()=> {
   const {itemId}=useParams()
   let navigate=useNavigate()
   let isLogin=useSelector(SelectIsLogin)
+  let isAuth=useSelector(SelectAuth)
   const product = {
     sizes: [
       { name: 'XXS'},
@@ -32,7 +33,7 @@ export const Productdet=()=> {
   console.log(cartlength) 
   useEffect(() => {
         dispatch(fetchProductByIdAsync(itemId));
-        dispatch(FetchcartByIdAsync(isLogin.data.id)) 
+        dispatch(FetchcartByIdAsync(isAuth.userId)) 
 
   }, [dispatch,itemId])      
   

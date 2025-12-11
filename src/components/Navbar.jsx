@@ -3,7 +3,7 @@ import { BsCartFill } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import {  FetchcartByIdAsync, SelectCart } from '../features/Cartslice';
 import { useDispatch, useSelector } from 'react-redux';
-import { LogOut, SelectIsLogin } from '../features/Authslice';
+import { LogOut, SelectAuth, SelectIsLogin } from '../features/Authslice';
 import { FetchLoginOrderAsync } from '../features/Userslice';
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
@@ -16,11 +16,12 @@ function classNames(...classes) {
 export const Navbar = () => {
   let dispatch=useDispatch()
   let isLogin=useSelector(SelectIsLogin)
+  let isAuth=useSelector(SelectAuth)
 
   const navigation = [
     { name: 'Home', href: '/' },
     { name: 'Products', href: '/products' },
-    { name: isLogin?.data?.isAdmin?'Order':'Your Order', href: '/orders'},
+    { name: isAuth && !isAuth?.isAdmin?'Order':'Your Order', href: '/orders'},
   ]
 
   // useEffect(() => {
@@ -30,6 +31,7 @@ export const Navbar = () => {
 
   // }, [isLogin]) 
   let cartlength=useSelector(SelectCart)
+  console.log(cartlength,'cartlength')
   const Loggingout=()=>{
     dispatch(LogOut())
   }
@@ -77,7 +79,7 @@ export const Navbar = () => {
                 </div>
               </div>
             </div>
-            { !isLogin ?
+            { !isAuth ?
               <div className='xs:hidden lg:block'>
             <button type="button" className="mt-5 text-white rounded-xl bg-[#1e40af] font-medium text-sm px-5 py-2 text-center mr-2 mb-2">
 <Link to='/login'> Login </Link>
@@ -85,10 +87,10 @@ export const Navbar = () => {
 <button type="button" className="mt-5 text-white rounded-xl bg-[#1e40af] font-medium text-sm px-5 py-2 text-center mr-2 mb-2">
 <Link to='/signup'> Sign Up </Link>
 </button> </div> :      <div className='xs:hidden lg:block'>    <button onClick={Loggingout} type="button" className="mt-5 text-white rounded-xl bg-[#1e40af] font-medium text-sm px-5 py-2 text-center mr-2 mb-2">
-<Link  to='/login'> Logout </Link>
+<Link> Logout </Link>
 </button> </div> }
             <div className="absolute xs:hidden lg:block  inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-            { isLogin && !isLogin.data.isAdmin ? <div> <button className='relative top-2'>
+            { isAuth && !isAuth?.isAdmin ? <div> <button className='relative top-2'>
               
               <Link to={'/cart'} >
               <BsCartFill className='text-xl'/>
@@ -120,7 +122,7 @@ export const Navbar = () => {
                 {item.name}
               </Disclosure.Button>
             ))}
-                  { !isLogin ?
+                  { !isAuth ?
               <div className='flex flex-col items-center'>
             <button type="button" className="mt-5 text-white rounded-xl bg-[#1e40af] font-medium text-sm px-5 py-2 text-center mr-2 mb-2">
 <Link to='/login'> Login </Link>
@@ -131,7 +133,7 @@ export const Navbar = () => {
 <Link  to='/login'> Logout </Link>
 </button> </div> }
             <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-            { isLogin && !isLogin.data.isAdmin ? <div> <button className='xs:absolute xs:top-7 xs:right-5 lg:relative lg:top-2'>
+            { isAuth && !isAuth?.isAdmin ? <div> <button className='xs:absolute xs:top-7 xs:right-5 lg:relative lg:top-2'>
               
               <Link to={'/cart'} >
               <BsCartFill className='text-xl'/>

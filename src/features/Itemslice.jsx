@@ -61,7 +61,8 @@ const Itemslice = createSlice({
             .addCase(FetchallproductsAsync.fulfilled, (state, action) => {
                 state.status = 'succeeded'
                 console.log(action.payload)
-                state.items=action.payload
+                state.items=action.payload.docs
+                state.totallength=action.payload.totalDocs
             })
             .addCase(FetchallproductsAsync.rejected, (state, action) => {
                 state.status = 'failed'
@@ -94,18 +95,18 @@ const Itemslice = createSlice({
                 state.status = 'failed'
                 state.error = action.error.message
             }) 
-            .addCase(ProductslengthAsync.pending, (state, action) => {
-                state.status = 'loading'
+            // .addCase(ProductslengthAsync.pending, (state, action) => {
+            //     state.status = 'loading'
                 
-            })
-            .addCase(ProductslengthAsync.fulfilled, (state, action) => {
-                state.status = 'succeeded'
-                state.totallength=action.payload.length
-            })
-            .addCase(ProductslengthAsync.rejected, (state, action) => {
-                state.status = 'failed'
-                state.error = action.error.message
-            })
+            // })
+            // .addCase(ProductslengthAsync.fulfilled, (state, action) => {
+            //     state.status = 'succeeded'
+            //     state.totallength=action.payload.length
+            // })
+            // .addCase(ProductslengthAsync.rejected, (state, action) => {
+            //     state.status = 'failed'
+            //     state.error = action.error.message
+            // })
             .addCase(Fetchcategoriesasync.pending, (state, action) => {
                 state.status = 'loading'
                 

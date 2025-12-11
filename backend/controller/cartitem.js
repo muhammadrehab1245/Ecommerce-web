@@ -13,7 +13,7 @@ exports.FetchCartById = async (req, res) => {
   const { id } = req.params;
   console.log(id)
     try {
-      const cartitems = await Cartitems.findOne({ userId: id });
+      const cartitems = await Cartitems.find({userId:id}); // Fetch products from the database
       res.status(200).json(cartitems); // Send the products as a response
     } catch (error) {
       console.log('Error:', error);
@@ -45,22 +45,11 @@ exports.AddCart = async (req, res) => {
       await Cartitems.deleteOne({id}); 
       res.status(200).json('Cart Item Deleted Successfully');
     } catch (error) {
-      console.error('Error adding item to cart:', error);
+      console.error('Error Deleting item in cart:', error);
       res.status(500).json({ message: 'Internal Server Error' });
     }
   };
 
-  exports.DeleteCart = async (req, res) => {
-    const { id } = req.body;
-    console.log(id)
-    try {
-      await Cartitems.deleteOne({_id:id}); 
-      res.status(200).json('Cart Item Deleted Successfully');
-    } catch (error) {
-      console.error('Error adding item to cart:', error);
-      res.status(500).json({ message: 'Internal Server Error' });
-    }
-  };
 
   exports.updateCart = async (req, res) => {
     const { _id,quantity } = req.body;

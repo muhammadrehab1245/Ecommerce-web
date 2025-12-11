@@ -45,7 +45,7 @@ exports.createUser = async (req, res) => {
 
     const token = jwt.sign(data, jwttoken);
     success = true;
-    res.json({ success, token });
+    res.json({ success, token,isAdmin:false });
 
   } catch (error) {
     console.log(error.message);
@@ -82,7 +82,7 @@ exports.loginUser= async (req,res)=>{
 
     var token = jwt.sign(data,jwttoken);
     success=true;
-        res.json({success,token})
+        res.json({userId:user.id,success,token,isAdmin:user.isAdmin})
   }
   catch(e){
     console.log(e.message)

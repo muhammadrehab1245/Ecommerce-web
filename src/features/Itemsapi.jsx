@@ -1,14 +1,32 @@
+import axios from "axios";
 import { Constant } from "../components/Constant";
 
+// export const Fetchallproducts = (obj) => {
+//   let urlstr=Query(obj)
+//   console.log(urlstr)
+//  return new Promise(async(resolve)=>{
+//   const response = await fetch(`http://localhost:3000/items?_page=${obj.page}&_limit=${Constant}${urlstr}`);
+//   const data=response.json()
+//   resolve(data)
+// })
+//   };
+
 export const Fetchallproducts = (obj) => {
-  let urlstr=Query(obj)
-  console.log(urlstr)
- return new Promise(async(resolve)=>{
-  const response = await fetch(`http://localhost:3000/items?_page=${obj.page}&_limit=${Constant}${urlstr}`);
-  const data=response.json()
-  resolve(data)
-})
-  };
+  let urlstr = Query(obj);
+  console.log(urlstr);
+
+  return new Promise(async (resolve, reject) => {
+    try {
+      const response = await axios.get(
+        `http://localhost:5000/e-com/items/fetchallproducts?page=${obj.page}&limit=${Constant}${urlstr}`
+      );
+      console.log(response,'res');
+      resolve(response.data);
+    } catch (err) {
+      reject({ error: err.message });
+    }
+  });
+};
 
   
 export const fetchProductById = (id) => {
@@ -18,23 +36,46 @@ export const fetchProductById = (id) => {
   resolve(data)
 })
   }; 
-export const Fetchcategories = () => {
+// export const Fetchcategories = () => {
 
- return new Promise(async(resolve)=>{
-  const response = await fetch("http://localhost:3000/category");
-  const data=response.json()
-  resolve(data)
-})
-  };
-export const FetchPrices = () => {
+//  return new Promise(async(resolve)=>{
+//   const response = await fetch("http://localhost:3000/category");
+//   const data=response.json()
+//   resolve(data)
+// })
+//   };
+// export const FetchPrices = () => {
 
- return new Promise(async(resolve)=>{
-  const response = await fetch("http://localhost:3000/range");
-  const data=response.json()
+//  return new Promise(async(resolve)=>{
+//   const response = await fetch("http://localhost:3000/range");
+//   const data=response.json()
   
-  resolve(data)
-})
-  };
+//   resolve(data)
+// })
+//   };
+
+export const Fetchcategories = () => {
+  return new Promise(async (resolve, reject) => {
+    try {
+      const response = await axios.get("http://localhost:5000/e-com/items/fetchcategory");
+      resolve(response.data);
+    } catch (err) {
+      reject({ error: err.message });
+    }
+  });
+};
+
+export const FetchPrices = () => {
+  return new Promise(async (resolve, reject) => {
+    try {
+      const response = await axios.get("http://localhost:5000/e-com/items/fetchprices");
+      resolve(response.data);
+    } catch (err) {
+      reject({ error: err.message });
+    }
+  });
+};
+
 export const Productslength = (obj) => {
   let urlstr=Query(obj)
  return new Promise(async(resolve)=>{
